@@ -1,0 +1,510 @@
+html  {
+  font-size:  10px;
+}
+
+body {
+  margin: 0;
+  padding:  0;
+  box-sizing: border-box;
+  overflow-x:  hidden;
+  color:  #111;
+  font-family: "Noto-Sans";
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color:  #111;
+  text-decoration:  none;
+}
+
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  border: 0;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline:  none;
+  box-shadow: none;
+}
+
+a,
+button  {
+  cursor: pointer;
+}
+
+ul,
+ol  {
+  padding-left:  0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+  margin: 0;
+}
+
+/* header ▼ */
+
+ header  {
+  width:  100%;
+  font-family: "menu";
+  font-weight: 300;
+  font-size: 1rem;
+  background-color: #111;
+  color:  #fff;
+}
+
+header a  {
+  color:  #fff;
+}
+
+.header__inner  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  20px 40px;
+}
+
+.header__start  {
+  width:  10%;
+}
+
+.logo {
+  text-indent: -9999em;
+  width:  100%;
+  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/logo-drjart.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter:invert(1);
+}
+
+.header__center {
+  width:  73%;
+}
+
+.header__advr {
+  height: 100%;
+  text-align: center;
+  font-size:  1em;
+  padding-bottom:  30px;
+}
+
+nav {
+  height: 100%;
+}
+
+.gnb  {
+  width:  100%;
+  display: flex;
+  justify-content: start;
+  border-top: 1px solid #fff;
+  text-align: center;
+}
+
+.gnb__list  {
+  margin-right: 20px;
+}
+
+.gnb__list a  {
+  display: block;
+  padding:  10px 0;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.gnb__list a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+  padding-top: 10px;
+}
+
+.gnb__list a:hover::after {
+  transform: scaleX(1);
+}
+
+.header__end  {
+  width:  15%;
+}
+
+.user__utilities  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user__utilities a  {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color:  #dedede;
+}
+
+/*  main  ▼ */
+
+.main {
+  width:  100%;
+}
+
+.main__inner  {
+  background-color: #f3d43e;
+}
+
+.main__head {
+  width:  100%;
+  display: flex;
+}
+
+.main__visual { 
+  width:  55%;
+  height: 850px;
+  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/img-main-visual.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main__titlebox {
+  width:  45%;
+  height: 550px;
+  padding-top:  300px;
+  z-index: 1;
+  transform: translateX(-100px);
+  color:  #fff; 
+}
+
+.main__title  {
+  font-family: "menu";
+  font-size:  4.8rem;
+  font-weight: 100;
+}
+
+.main__desc {
+  width:  400px;
+  font-family: "Noto-Sans";
+  font-size:  2.2rem;
+}
+
+.load-box {
+  width:  250px;
+  height: 50px;
+  border: 1px solid #fff;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Noto-Sans";
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color:  #fff;
+  display:  block;
+}
+
+.loading-bar{
+  width:  0;
+}
+
+.main__body{
+  width:  100%;
+  height: 500px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fff;
+  background-position: center;
+  font-family: "Noto-Sans";
+  font-size: 1.5rem;
+}
+
+.item-info{
+  margin-top: 30px;
+}
+
+.main__body-cont1,
+.main__body-cont2 {
+  margin-top: 4px; 
+  margin-right: 4px;
+  display: block;
+  width:  20%;
+  height: 400px;
+  text-align: center;
+  background-color: #fbfbfb;
+}
+
+.main__body-cont3 {
+  display: block;
+  width:  45%;
+  height: 604px;
+  z-index: 2;
+  transform: translateY(-200px);
+  text-align: center;
+  background-color: #fbfbfb;
+}
+
+.main_item1 {
+  width:  100%;
+  height: 400px;
+  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/item1.svg);
+  background-size: cover;
+  background-position: center;
+  transition: 300ms ease-in-out;
+}
+
+.main_item1:hover {
+  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/img-item1-hover.svg);
+}
+
+.main_item2 {
+  width:  100%;
+  height: 400px;
+  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/item2.svg);
+  background-size: cover;
+  background-position: center;
+  transition: 300ms ease-in-out;
+}
+
+.main_item2:hover {
+  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/img-item2-hover.svg);
+}
+
+.main_item3 {
+  width:  100%;
+  height: 600px;
+  background-color: #fff;
+  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/item3.svg);
+  background-size: cover;
+  background-position: center;
+  transition: 300ms ease-in-out;
+}
+.main_item3:hover {
+  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/img-main-texture.png);
+}
+
+/*  section__new-product ▼ */
+
+.inner{
+  margin-top: 150px;
+  padding:  0 80px;
+}
+
+.new-product-title  {
+  text-align: center;
+  font-family: "sect-title";
+  font-size:  4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color:  #111;
+  letter-spacing: 0.04rem;
+}
+
+.new-product-conts  {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-product-conts > i  {
+  font-size:  5rem;
+  font-weight: 100;
+  color:  #ccc;
+}
+
+.new-product-conts > div  {
+  width:  350px;
+  height: 350px;
+}
+
+.new-product-con1  {
+  width: 100%;
+  height: 100%;
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/img-new-product1.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.new-product-con2  {
+  width: 100%;
+  height: 100%;
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/img-new-product2.svg");
+  background-size: cover;
+}
+
+.new-product-con3  {
+  width:  100%;
+  height: 100%;
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/img-new-product3\(2\).svg");
+  background-size: cover;
+}
+.new-product-con4  {
+  width:  100%;
+  height: 100%;
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/img-new-product4.svg");
+  background-size: cover;
+}
+
+/*  section__innovate ▼ */
+
+.section__innovate  > .inner{
+  background-color: #f9f9f9;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innovate-title  {
+  padding:  30px 0;
+  text-align: center;
+  font-family: "sect-title";
+  font-size:  4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0.04rem;
+}
+
+.innovate-desc  {
+  display: block;
+  width:  65%;
+  text-align: center;
+  font-family: "sect-desc";
+  font-weight: 300;
+  font-size: 2rem;
+  letter-spacing: -0.02rem;
+  line-height: 3rem;
+}
+
+/*  section__about" ▼ */
+
+.section__about{
+  width: 100%;
+  background-color: #111;
+  padding-bottom:  100px;
+}
+
+.section__about > .inner  {
+  margin-top: 0;
+}
+
+.about-title  {
+  padding-top: 100px;
+  font-family: "sect-title";
+  font-weight: 500;
+  font-size: 4rem;
+  color:  #ffffff;
+  text-align: center;
+}
+
+.about-cont-box {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-cont1  {
+  width: 40%;
+  height: 600px;
+  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/about-section-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-cont2  {
+  width: 40%;
+  height: 700px;
+  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/img-about-cont2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-cont1 > .load-box {
+  transform: translate(150px, 400px);
+}
+
+/*  footer ▼ */
+
+.footer {
+  background-color: #f9f9f9;
+}
+
+.footer > .inner{
+  margin-top: 0;
+  padding:  60px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__head {
+  width:  35%;
+  border-right: 1px solid #ccc ;
+}
+
+.footer__logo {
+  margin-left: 5px; /*아이콘들이랑 정렬맞추기 위함*/
+  display: block;
+  width:  190px;
+  height: 40px;
+  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/logo-drjart.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.footer__social-links {
+  margin-top: 20px;
+  width:  160px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social-links i {
+  font-size:  40px;
+
+}
+
+.footer__body {
+  font-size: 1.5rem;
+  font-weight: 100;
+  width:  60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__body p {
+  font-family: "Noto-Sans";
+  font-size:  1.8rem;
+  margin-top:  0;
+}
+
+.footer__body a {
+  font-family: "Noto-Sans-l";
+  color:  #9d9d9d;
+}
+
+.icon-facebook :hover {
+ 
+}
+
+.icon-instagram:hover {
+
+}
+
+.icon-youtube:hover {
+
+}

@@ -1,0 +1,104 @@
+
+@font-face {
+  font-family: "sect-title";
+  font-style: normal;
+  font-weight:  500;
+  src: url(/portfolio/my_portfolio/drJart/assets/fonts/HelveticaNeueLTPro-ThEx.otf);
+}
+
+@font-face {
+  font-family: "sect-desc";
+  font-style: normal;
+  font-weight:  300;
+  src: url(/portfolio/my_portfolio/assets/fonts/HelveticaNeueLTPro-Lt.otf);
+}
+
+@font-face {
+  font-family: "menu";
+  font-style: normal;
+  font-weight:  300;
+  src: url(/portfolio/my_portfolio/drJart/assets/fonts/Blair\ ITC\ Medium.otf);
+}
+
+@font-face {
+  font-family: "Noto-Sans";
+  font-style: normal;
+  font-weight:  500;
+  src: url(/portfolio/my_portfolio/drJart/assets/fonts/NotoSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Noto-Sans-l";
+  font-style: normal;
+  font-weight:  300;
+  src: url(/portfolio/my_portfolio/drJart/assets/fonts/NotoSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "drjart";
+  src:  url("/portfolio/my_portfolio/drJart/assets/fonts/drjart.eot");
+  src:  url('/portfolio/my_portfolio/drJart/assets/fonts/drjart.eot#iefix') format('embedded-opentype'),
+        url('/portfolio/my_portfolio/drJart/assets/fonts/drjart.ttf') format('truetype'),
+        url('/portfolio/my_portfolio/drJart/assets/fonts/drjart.woff') format('woff'),
+        url('/portfolio/my_portfolio/drJart/assets/fonts/drjart.svg#drjart') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'drjart' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right:before {
+  content: "\e90d";
+}
+.icon-chevron:before {
+  content: "\e90a";
+}
+.icon-prev:before {
+  content: "\e90b";
+}
+.icon-next:before {
+  content: "\e90c";
+}
+.icon-cart:before {
+  content: "\e900";
+}
+.icon-close:before {
+  content: "\e901";
+}
+.icon-facebook-filled:before {
+  content: "\e902";
+}
+.icon-facebook:before {
+  content: "\e903";
+}
+.icon-instagram-filled:before {
+  content: "\e904";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-mobile__hamburger:before {
+  content: "\e906";
+}
+.icon-serch:before {
+  content: "\e907";
+}
+.icon-youtube-filled:before {
+  content: "\e908";
+}
+.icon-youtube:before {
+  content: "\e909";
+}

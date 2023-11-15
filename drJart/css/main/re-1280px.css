@@ -1,0 +1,129 @@
+  @media all and (max-width: 1279px) {
+
+    html {
+      font-size:  9px;
+    }
+    
+    /* header ▼ */
+    
+    .header .logo {
+      font-size: 4rem;
+    }
+
+    /*  main  ▼ */
+
+    .main__visual { 
+      height: 750px; /*-100px*/
+    }
+
+    .main__titlebox {
+      height: 400px; /*-100px*/
+      padding-top:  200px; /*-100px*/
+    }
+
+    .main__desc {
+      width:  350px;  /*-50px*/
+    }
+
+    .main__body{
+      height: 400px; /*-100px*/
+    }
+
+    .item-info{
+      margin-top: 10px; /*-10px*/
+    }
+
+    .main__body-cont1,
+    .main__body-cont2 {
+      width:  20%;
+      height: 350px; /*-50px*/
+    }
+
+    .main__body-cont3 {
+      height: 504px;
+      transform: translateY(-196px);
+    }
+
+    .main_item1 {
+      height: 350px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .main_item2 {
+      height: 350px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .main_item3 {
+      height: 550px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    /*  section__new-products ▼ */
+
+    .inner{
+      margin-top: 140px;
+      padding:  0 100px; /*20px*/
+    }
+
+    .new-product-conts > div  {
+      width:  300px;
+      height: 300px;
+    }
+
+    /*  section__innovate ▼ */
+
+    .section__innovate  > .inner{
+      height: 400px;
+    }
+
+    .innovate-desc  {
+      width:  70%;
+    }
+
+    /*  section__about ▼ */
+
+    .section__about{
+      padding-bottom:  90px;
+    }
+
+    .about-title  {
+      padding-top: 90px;
+    }
+
+    .about-cont-box {
+      margin-top: 90px;
+    }
+
+    .about-cont1  {
+      height: 500px;
+      background-position: center;
+    }
+    
+    .about-cont2  {
+      height: 600px;
+      background-position: center;
+    }
+
+
+    /*  footer ▼ */
+
+    .footer > .inner  {
+      padding:  50px 100px;
+    }
+
+    .footer__social-links {
+      margin-top: 15px;
+      width:  140px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer__social-links i {
+      font-size:  35px;
+    }
+
+}

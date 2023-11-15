@@ -1,0 +1,144 @@
+  @media all and (max-width: 1023px) {
+
+    html {
+      font-size:  8px;
+    }
+
+    /* header ▼ */
+
+    .header .logo {
+      font-size: 5rem;
+    }
+
+    /*  main  ▼ */
+
+    .main__visual { 
+      height: 600px; 
+    }
+    
+    .main__titlebox {
+      height: 350px; 
+      padding-top:  150px; 
+    }
+
+    .main__desc {
+      width:  300px;  
+    }
+
+    .load-box {
+      width:  200px;
+      height: 40px;
+      line-height: 40px;
+    }
+
+    .main__body{
+      height: 350px;
+    }
+
+    .item-info{
+      margin-top: 10px;
+    }
+    
+    .main__body-cont1,
+    .main__body-cont2 {
+      width:  20%;
+      height: 300px;
+    }
+
+    .main__body-cont3 {
+      height: 404px;
+      transform: translateY(-146px);
+    }
+
+    .main_item1 {
+      height: 300px;
+      background-size: 120%;
+      background-repeat: no-repeat;
+    }
+
+    .main_item2 {
+      height: 300px;
+      background-size: 120%;
+      background-repeat: no-repeat;
+    }
+
+    .main_item3 {
+      height: 450px;
+      background-repeat: no-repeat;
+    }
+
+    /*  section__new-products ▼ */
+
+    .inner{
+      margin-top: 140px;
+      padding:  0 120px;
+    }
+
+    .new-product-conts > div  {
+      width:  250px;
+      height: 250px;
+    }
+
+    /*  section__innovate ▼ */
+
+    .section__innovate  > .inner{
+      height: 350px;
+    }
+
+    .innovate-desc  {
+      width:  80%;
+    }
+
+    /*  section__about ▼ */
+
+    .section__about{
+      padding-bottom:  70px;
+    }
+
+    .about-title  {
+      padding-top: 70px;
+    }
+
+    .about-cont-box {
+      margin-top: 70px;
+    }
+
+    .about-cont1  {
+      height: 400px;
+      background-position: center;
+    }
+    
+    .about-cont2  {
+      height: 500px;
+      background-position: center;
+    }
+
+    .about-cont1 > .load-box {
+      bottom: 50px;
+      transform: translate(-50%, -50%);
+    }
+
+    /*  footer ▼ */
+
+    .footer > .inner  {
+      padding:  50px 120px;
+    }
+
+    .footer__social-links {
+      margin-top: 10px;
+      width:  120px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .footer__social-links i {
+      font-size:  30px;
+    }
+
+    .footer__logo {
+      width:  180px;
+      height: 30px;
+    }
+
+
+  }

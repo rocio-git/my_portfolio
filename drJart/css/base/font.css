@@ -17,30 +17,30 @@
   font-family: "menu";
   font-style: normal;
   font-weight:  300;
-  src: url("../portfolio/my_portfolio/drJart/assets/fonts/Blair\ ITC\ Medium.otf");
+  src: url("/portfolio/my_portfolio/drJart/assets/fonts/Blair\ ITC\ Medium.otf");
 }
 
 @font-face {
   font-family: "Noto-Sans";
   font-style: normal;
   font-weight:  500;
-  src: url("../portfolio/my_portfolio/drJart/assets/fonts/NotoSans-SemiBold.ttf");
+  src: url("/portfolio/my_portfolio/drJart/assets/fonts/NotoSans-SemiBold.ttf");
 }
 
 @font-face {
   font-family: "Noto-Sans-l";
   font-style: normal;
   font-weight:  300;
-  src: url("../portfolio/my_portfolio/drJart/assets/fonts/NotoSans-Medium.ttf");
+  src: url("/portfolio/my_portfolio/drJart/assets/fonts/NotoSans-Medium.ttf");
 }
 
 @font-face {
   font-family: "drjart";
-  src:  url("../portfolio/my_portfolio/drJart/assets/fonts/drjart.eot");
-  src:  url('../portfolio/my_portfolio/drJart/assets/fonts/drjart.eot#iefix') format('embedded-opentype'),
-        url('../portfolio/my_portfolio/drJart/assets/fonts/drjart.ttf') format('truetype'),
-        url('../portfolio/my_portfolio/drJart/assets/fonts/drjart.woff') format('woff'),
-        url('../portfolio/my_portfolio/drJart/assets/fonts/drjart.svg#drjart') format('svg');
+  src:  url("/portfolio/my_portfolio/drJart/assets/fonts/drjart.eot");
+  src:  url('/portfolio/my_portfolio/drJart/assets/fonts/drjart.eot#iefix') format('embedded-opentype'),
+        url('/portfolio/my_portfolio/drJart/assets/fonts/drjart.ttf') format('truetype'),
+        url('/portfolio/my_portfolio/drJart/assets/fonts/drjart.woff') format('woff'),
+        url('/portfolio/my_portfolio/drJart/assets/fonts/drjart.svg#drjart') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

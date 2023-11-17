@@ -1,5 +1,6 @@
 html  {
   font-size:  10px;
+  margin: 0 auto;
 }
 
 body {
@@ -88,7 +89,7 @@ header a  {
 .logo {
   text-indent: -9999em;
   width:  100%;
-  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/logo-drjart.svg);
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/logo-drjart.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -189,7 +190,7 @@ nav {
 .main__visual { 
   width:  55%;
   height: 850px;
-  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/img-main-visual.png);
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/img-main-visual.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -276,41 +277,41 @@ nav {
 .main_item1 {
   width:  100%;
   height: 400px;
-  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/item1.svg);
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/item1.svg");
   background-size: cover;
   background-position: center;
   transition: 300ms ease-in-out;
 }
 
 .main_item1:hover {
-  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/img-item1-hover.svg);
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/img-item1-hover.svg");
 }
 
 .main_item2 {
   width:  100%;
   height: 400px;
-  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/item2.svg);
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/item2.svg");
   background-size: cover;
   background-position: center;
   transition: 300ms ease-in-out;
 }
 
 .main_item2:hover {
-  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/img-item2-hover.svg);
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/img-item2-hover.svg");
 }
 
 .main_item3 {
   width:  100%;
   height: 600px;
   background-color: #fff;
-  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/item3.svg);
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/item3.svg");
   background-size: cover;
   background-position: center;
   transition: 300ms ease-in-out;
 }
 
 .main_item3:hover {
-  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/img-main-texture.png);
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/img-main-texture.png");
 }
 
 /*  section__new-product ▼ */
@@ -453,17 +454,17 @@ nav {
 }
 
 .about-cont1  {
-  width: 50%;
-  height: 600px;
-  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/about-section-1.png);
+  width: 45%;
+  height: 700px;
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/about-section-1.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .about-cont2  {
-  width: 50%;
-  height: 700px;
-  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/img-about-cont2.svg);
+  width: 45%;
+  height: 800px;
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/img-about-cont2.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -503,7 +504,7 @@ nav {
   display: block;
   width:  190px;
   height: 40px;
-  background-image: url(/portfolio/my_portfolio/drJart/assets/imgs/main/logo-drjart.svg);
+  background-image: url("/portfolio/my_portfolio/drJart/assets/imgs/main/logo-drjart.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }

@@ -37,10 +37,10 @@
 @font-face {
   font-family: "drjart";
   src:  url("../../assets/fonts/drjart.eot");
-  src:  url("../../assets/fonts/drjart.eot#iefix") format('embedded-opentype'),
-        url("../../assets/fonts/drjart.ttf") format('truetype'),
-        url("../../assets/fonts/drjart.woff") format('woff'),
-        url("../../assets/fonts/drjart.svg#drjart") format('svg');
+  src:  url("../../assets/fonts/drjart.eot#iefix") format("embedded-opentype"),
+        url("../../assets/fonts/drjart.ttf") format("truetype"),
+        url("../../assets/fonts/drjart.woff") format("woff"),
+        url("../../assets/fonts/drjart.svg#drjart") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;

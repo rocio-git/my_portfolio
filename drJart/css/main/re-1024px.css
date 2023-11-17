@@ -70,8 +70,17 @@
     /*  section__new-products ▼ */
 
     .inner{
-      margin-top: 140px;
-      padding:  0 120px;
+      margin-top: 130px;
+      padding:  0 40px;
+    }
+
+    .new-product-conts  {
+      margin-top: 50px;
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center; 
     }
 
     .new-product-conts > div  {
@@ -121,7 +130,7 @@
     /*  footer ▼ */
 
     .footer > .inner  {
-      padding:  50px 120px;
+      padding:  50px 80px;
     }
 
     .footer__social-links {
@@ -139,6 +148,5 @@
       width:  180px;
       height: 30px;
     }
-
 
   }

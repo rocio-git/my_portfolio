@@ -11,11 +11,13 @@ $(function(){
 
 // 모바일
 $(".icon-mobile__hamburger").on("click", function(){
-  $(".mobile__menu").animate({left:0}, 500);
+  $("html").css("overflow", "hidden");
+  $(".mobile__menu").animate({left:0}, 400);
 });
 $(".icon-close").on("click", function(){
-  $(".mobile__menu").animate({left:-100 + "%"}, 500);
+  $(".mobile__menu").animate({left:-100 + "%"}, 400);
   $(".moblie__dropdown").stop().slideUp(100);
+  $("html").css("overflow", "auto");
 });
 
 

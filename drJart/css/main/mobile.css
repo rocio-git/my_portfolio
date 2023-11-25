@@ -233,7 +233,7 @@
       align-items: center; 
     }
 
-    .new-product-conts > div  {
+    .new-product-conts > a  {
       width:  200px;
       height: 250px;
       flex-basis: 50%;
@@ -317,7 +317,7 @@
     }
 
     .footer__body {
-      font-size: 1.8rem;
+      font-size: 2rem;
       font-weight: 100;
       width:  60%;
       display: flex;
@@ -330,7 +330,7 @@
     }
 
     .footer__body p {
-      font-size:  2rem;
+      font-size:  2.2rem;
     }
     
 

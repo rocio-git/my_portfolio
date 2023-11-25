@@ -84,7 +84,7 @@
       align-items: center; 
     }
 
-    .new-product-conts > div  {
+    .new-product-conts > a  {
       width:  250px;
       height: 250px;
     }

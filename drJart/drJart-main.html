@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="./css/main/re-1024px.css">
   <link rel="stylesheet" href="./css/main/mobile.css">
   <!-- JS -->
+  <script src="./script/jquery-3.7.1.min.js"></script>
+  <script src="./script/script.js"></script>
 </head>
 
 <body>
@@ -34,8 +36,11 @@
             </li>
             <li class="gnb__list has-dropdown">
               <a href="#">shop by category</a>
+              <div class="dropdown-wrap"></div>
             </li>
-            <li class="gnb__list has-dropdown"><a href="#">shop by collection</a></li>
+            <li class="gnb__list has-dropdown">
+              <a href="#">shop by collection</a>
+            </li>
             <li class="gnb__list"><a href="#">shop by concer</a></li>
             <li class="gnb__list"><a href="#">offers</a></li>
             <li class="gnb__list"><a href="#">about</a></li>
@@ -54,12 +59,38 @@
         <div class="mobile__menu-inner">
           <i class="icon-close" aria-label="모바일 닫기버튼"></i>
           <ul>
-            <li class="mobil__menu-list">bestseller</li>
-            <li class="mobil__menu-list has-dropdown">shop by category<i class="icon-chevron"></i></li>
-            <li class="mobil__menu-list has-dropdown">shop by collection<i class="icon-chevron"></i></li>
-            <li class="mobil__menu-list">shop by concern</li>
-            <li class="mobil__menu-list">offers</li>
-            <li class="mobil__menu-list">about</li>
+            <li class="mobile__menu-list">
+              <a href="#">bestseller</a>
+            </li>
+            <li class="mobile__menu-list has-dropdown">
+              <a href="#">shop by category<i class="icon-chevron"></i></a>
+              <ul class="moblie__dropdown">
+                <li><a href="#">vital hydra solution</a></li>
+                <li><a href="#">cicapair</a></li>
+                <li><a href="#">ceramidin</a></li>
+                <li><a href="#">bb creams</a></li>
+                <li><a href="#">all face masks</a></li>
+              </ul>
+            </li>
+            <li class="mobile__menu-list has-dropdown">
+              <a href="#">shop by collection<i class="icon-chevron"></i></a>
+              <ul class="moblie__dropdown">
+                <li><a href="#">cicapair™</a></li>
+                <li><a href="#">ceramidin™</a></li>
+                <li><a href="#">pore.remedy™</a></li>
+                <li><a href="#">dermask™</a></li>
+                <li><a href="#">teatreement™</a></li>
+              </ul>
+            </li>
+            <li class="mobile__menu-list">
+              <a href="#">shop by concern</a>
+            </li>
+            <li class="mobile__menu-list">
+              <a href="#">offers</a>
+            </li>
+            <li class="mobile__menu-list">
+              <a href="#">about</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -120,12 +151,6 @@
         <div class="new-product-con4"></div>
         <i class="icon-next"></i>
       </div>
-      <div class="mobile__swipe">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
     </div>
   </section>
 
@@ -163,7 +188,7 @@
   <footer class="footer">
     <div class="inner">
       <div class="footer__head">
-        <a href="" class="footer__logo"></a>
+        <a href="#" class="footer__logo"></a>
         <ul class="footer__social-links">
           <li><a href="#"><i class="icon-facebook"></i></a></li>
           <li><a href="#"><i class="icon-instagram"></i></a></li>

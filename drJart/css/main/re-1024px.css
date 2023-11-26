@@ -10,6 +10,17 @@
       font-size: 5rem;
     }
 
+    /* header : dropdown */
+
+    .dropdown-wrap {
+      height: 350px;
+    }
+
+    .aside-desc{
+      width: 130px;
+      font-size: 1.8rem;
+    }
+
     /*  main  ▼ */
 
     .main__visual { 

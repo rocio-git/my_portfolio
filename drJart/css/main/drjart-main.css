@@ -44,6 +44,7 @@ button {
 
 ul,
 ol {
+  margin: 0;  /*원래 없었음 지우면 헤더 커짐*/
   padding-left:  0;
   list-style-type: none;
 }
@@ -72,6 +73,7 @@ h5 {
 
  header {
   width:  100%;
+  height: 130px;
   font-family: "menu";
   font-weight: 300;
   font-size: 1rem;
@@ -170,20 +172,24 @@ nav {
 }
 
 /* header : dropdown */
+
 .dropdown-wrap {
-  width: 100%;
+  height: 400px;
   z-index: 10;
   position: absolute;
-  top:  147px;
+  top:  130px;
   left: 0;
+  right: 0;
   background-color: rgba(255, 255, 255, 0.9);
   display: flex;
-justify-content: space-between;
-  padding:  40px;
+  justify-content: space-between;
+  padding: 20px 40px;
+  margin: 0;
 }
 
 .dropdown-wrap .dropdown-main {
-  width: 45%;
+  width: 40%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -193,7 +199,7 @@ justify-content: space-between;
 }
 
 .dropdown-wrap .dropdown-main .dropdown-title{
-  width: 50%;
+  width: 50vw;
   margin-right: 30px;
 }
 
@@ -208,40 +214,85 @@ justify-content: space-between;
 }
 
 .dropdown-wrap .dropdown-main .dropdown-list a{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  letter-spacing: 1.5;
 }
 
 .dropdown-wrap .dropdown-main .dropdown-list a:hover{
   text-decoration: underline;
 }
 
-.dropdown-wrap .dropdown-aside{
-  width: 35%;
-} 
-
-.dropdown-wrap .dropdown-aside p{
-  display: block;
+.dropdown-aside{
+  width: 40%;
+  height: 100%;
 }
 
-.dropdown-wrap .dropdown-aside a{
+.dropdown-aside .aside-wrap{
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-family: "Noto-Sans";
 }
 
-.dropdown-wrap .dropdown-aside a img{
-  width: 350px;
-  height: 150px;
-  padding:  70px 0 0;
-} 
-
-.dropdown-wrap .dropdown-aside a p{
-  font-size: 2rem;
-  text-align: left;
+.dropdown-aside .aside-wrap .aside-img.i1 {
+  width: 100%;
+  height: 95%;
+  background-image: url(../../assets/imgs/main/img-dropdown1.svg);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: 30%;
+  position: relative;
+  transition: background-size 0.5s;
 }
+
+.dropdown-aside .aside-wrap .aside-img.i1:hover{
+  background-size: 160%;
+}
+
+.dropdown-aside .aside-wrap .aside-img.i2 {
+  width: 100%;
+  height: 95%;
+  background-image: url(../../assets/imgs/main/img-dropdown2.svg);
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: 30%;
+  position: relative;
+  transition: background-size 0.5s;
+}
+
+.dropdown-aside .aside-wrap .aside-img.i2:hover{
+  background-size: 160%;
+}
+
+.aside-desc{
+ width: 200px;
+ position: absolute;
+ top: 45%;
+ left: 30%;
+ transform: translate(-50%, -50%);
+ color: #fff;
+ font-size: 2.2rem;
+ text-align: left;
+ font-weight: 600;
+ line-height: 1.5;
+}
+
+.aside-desc.d2{
+  color: #000;
+}
+
+
+.dropdown-aside .aside-wrap .aside-img2 {
+  width: 70%;
+  height: 94%;
+  background-image: url(../../assets/imgs/main/img-dropdown2.svg);
+  background-size: 150%;
+  padding-right:  160px;
+  background-repeat: no-repeat;
+  background-position: 30%;
+  position: relative;
+  transition: background-size 0.5s;
+}
+
+
 
 
 
@@ -253,6 +304,7 @@ justify-content: space-between;
 .mobile-submenu {
   display: none;
 }
+
 .mobile__utilities {
   display: none;
 }
@@ -264,7 +316,6 @@ justify-content: space-between;
 .icon-mobile__hamburger:hover{
   cursor: pointer;
 }
-
 
 .icon-close:hover {
   cursor: pointer;
@@ -343,7 +394,7 @@ justify-content: space-between;
   background-color: var(--white);
 }
 
-.icon-arrow-right  {
+.icon-arrow-right {
   display: none;
 }
 

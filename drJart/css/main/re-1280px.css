@@ -5,10 +5,22 @@
     }
     
     /* header ▼ */
-    
+
     .header .logo {
       font-size: 4rem;
     }
+
+    /* header : dropdown */
+
+    .dropdown-wrap {
+      height: 380px;
+    }
+
+    .aside-desc{
+      width: 180px;
+      font-size: 2rem;
+    }
+
 
     /*  main  ▼ */
 

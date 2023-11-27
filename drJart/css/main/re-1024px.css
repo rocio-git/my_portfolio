@@ -21,6 +21,15 @@
       font-size: 1.8rem;
     }
 
+    .dropdown-aside .aside-wrap .aside-img.i1 {
+      margin:  55px 0;
+    }
+
+    .dropdown-aside .aside-wrap .aside-img.i2 {
+      margin:  55px 0;
+    }
+
+
     /*  main  ▼ */
 
     .main__visual { 
@@ -107,7 +116,7 @@
     }
 
     .innovate-desc  {
-      width:  80%;
+      width:  50%;
     }
 
     /*  section__about ▼ */

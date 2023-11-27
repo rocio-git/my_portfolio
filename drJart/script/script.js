@@ -1,7 +1,7 @@
 $(function(){
 
   //드롭다운 메뉴
-  // $(".dropdown-wrap").hide();
+  $(".dropdown-wrap").hide();
   $(".gnb > li.has-dropdown").mouseover(function(){
     $(this).find(".dropdown-wrap").stop().fadeIn(600);
   });
@@ -9,7 +9,7 @@ $(function(){
     $(this).find(".dropdown-wrap").stop().fadeOut(600);
   });
 
-
+  
 
   //로딩바 : shopnow, our story
  $(".load-box").mouseover(function(){

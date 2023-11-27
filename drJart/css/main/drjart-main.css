@@ -234,9 +234,10 @@ nav {
 
 .dropdown-aside .aside-wrap .aside-img.i1 {
   width: 100%;
-  height: 95%;
+  height: 60%;
+  margin:  65px 0;
   background-image: url(../../assets/imgs/main/img-dropdown1.svg);
-  background-size: 150%;
+  background-size: 125%;
   background-repeat: no-repeat;
   background-position: 30%;
   position: relative;
@@ -244,14 +245,15 @@ nav {
 }
 
 .dropdown-aside .aside-wrap .aside-img.i1:hover{
-  background-size: 160%;
+  background-size: 135%;
 }
 
 .dropdown-aside .aside-wrap .aside-img.i2 {
   width: 100%;
-  height: 95%;
+  height: 60%;
+  margin:  65px 0;
   background-image: url(../../assets/imgs/main/img-dropdown2.svg);
-  background-size: 150%;
+  background-size: 125%;
   background-repeat: no-repeat;
   background-position: 30%;
   position: relative;
@@ -259,7 +261,7 @@ nav {
 }
 
 .dropdown-aside .aside-wrap .aside-img.i2:hover{
-  background-size: 160%;
+  background-size: 135%;
 }
 
 .aside-desc{
@@ -291,9 +293,6 @@ nav {
   position: relative;
   transition: background-size 0.5s;
 }
-
-
-
 
 
 /* header : mobile */
@@ -565,14 +564,14 @@ nav {
   letter-spacing: 0.04rem;
 }
 
-.innovate-desc  {
+.innovate-desc {
   display: block;
-  width:  60%;
+  width:  50%;
   text-align: center;
   font-family: "sect-desc";
   font-weight: 300;
   font-size: 2rem;
-  letter-spacing: -0.02rem;
+  letter-spacing: 0.08rem;
   line-height: 3.5rem;
 }
 
@@ -679,10 +678,10 @@ nav {
   justify-content: space-between;
 }
 
-.footer__body p {
+.footer__body li:first-child {
   font-family: "Noto-Sans";
   font-size:  1.8rem;
-  margin-top:  0;
+  margin-bottom:  10px;
 }
 
 .footer__body a {

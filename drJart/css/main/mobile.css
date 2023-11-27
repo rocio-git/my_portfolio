@@ -29,7 +29,7 @@
 
     .header__inner  {
       display: block;
-      padding:  0 20px;
+      padding:  40px 20px 0;
     }
 
     .header__start  {
@@ -129,12 +129,10 @@
     .moblie__dropdown li a{
       padding:  12px;
     }
+    
     .moblie__dropdown li a:hover{
       color:  #ccc;
     }
-
-
-
 
 
     /*  main  ▼ */  
@@ -211,7 +209,7 @@
     }
 
     .load-box:hover{
-      color:  var(--white);
+      color:  #fff;
     }
 
     /*  section__new-product ▼ */
@@ -222,7 +220,7 @@
     }
 
     .new-product-title  {
-      font-size: 5rem;
+      font-size: 6rem;
     }    
     
     .new-product-conts  {
@@ -249,7 +247,7 @@
     .innovate-title  {
       width: 100%;
       padding:  20px 0;
-      font-size: 5rem;
+      font-size: 6rem;
       text-align: left;
       line-height:  6rem;
     }
@@ -257,8 +255,12 @@
     .innovate-desc  {
       width:  95%;
       text-align: left;
-      margin: 0;
+      margin: 0;      
+      font-size: 2.4rem;
+      line-height: 4rem;
+      letter-spacing: 0.1rem;
     }
+
 
     /*  section__about ▼ */
 
@@ -269,7 +271,7 @@
 
     .about-title  {
       padding-top: 50px;
-      font-size: 5rem;
+      font-size: 6rem;
     }
 
     .about-cont-box {
@@ -325,13 +327,22 @@
       justify-content: space-between;
     }
 
-    .footer__social-links i {
-      font-size:  25px;
+    .footer__body ul {
+      margin-top: 20px;
     }
 
-    .footer__body p {
-      font-size:  2.2rem;
+    .footer__body li:first-child {
+      font-size: 2.4rem;
     }
-    
+
+    .footer__body li a{
+      font-size: 2.2rem;
+      margin-bottom: 4px;
+    }
+
+    .footer__social-links i {
+      font-size:  26px;
+    }
+
 
   }

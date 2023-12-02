@@ -214,9 +214,9 @@
 
     /*  section__new-product ▼ */
 
-    .section__new-product > .inner  {
+    .section__new-products > .inner  {
       margin-top: 120px;
-      padding:  0 40px;
+      padding:  0 20px;
     }
 
     .new-product-title  {
@@ -238,9 +238,9 @@
     }
 
     /*  section__innovate ▼ */
-    .section__innovate  > .inner{
+    .section__innovate > .inner{
       height: 400px;
-      padding:  0 40px;
+      padding: 0 40px;
       align-items: flex-start;
     }
 
@@ -254,6 +254,7 @@
 
     .innovate-desc  {
       width:  95%;
+      padding-bottom:  20px;
       text-align: left;
       margin: 0;      
       font-size: 2.4rem;

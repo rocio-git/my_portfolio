@@ -6,7 +6,7 @@ $(function(){
     $(this).find(".dropdown-wrap").stop().fadeIn(600);
   });
   $(".gnb > li.has-dropdown").mouseout(function(){
-    $(this).find(".dropdown-wrap").stop().fadeOut(600);
+    $(this).find(".dropdown-wrap").stop().fadeOut(400);
   });
 
   

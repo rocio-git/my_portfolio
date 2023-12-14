@@ -7,14 +7,22 @@
 /* article */
 
 .drjart-desc p {
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 /* article :event*/
 
+.event-desc{
+  width: 30%;
+  position: absolute;
+  top:  30%;
+  margin-left: 80px;
+}
+
 .event h5 {
   font-size: 2.8rem;
   color: #fff;
+  margin-bottom: 10px;
 }
 
 .event p {

@@ -58,7 +58,7 @@
 
     .drjart-desc {
       width: 100%;
-      height: 150px;
+      height: 200px;
       background-color: #121212;
       display: flex;
       justify-content: flex-start;
@@ -66,8 +66,8 @@
     }
 
     .drjart-desc p {
-      margin-left:  20px;
-      width: 100%;
+      margin-left:  40px;
+      width: 90%;
       font-size: 2.4rem;;
       letter-spacing: 0.1rem;
       text-align: left;
@@ -77,9 +77,9 @@
   /* article :event*/
 
   .event-desc{
-    width: 30%;
+    width: 35%;
     position: absolute;
-    top:  30%;
+    top:  20%;
     margin-left: 40px;
   }
   
@@ -164,10 +164,10 @@
 
   .item-info {
     width: 100%;
-    font-size: 2.2rem;
+    font-size: 2rem;
     text-align: center;
     position: absolute;
-    bottom: 2rem;
+    bottom: 1rem;
   }
 
   .main-inner .item img {
@@ -192,14 +192,11 @@
     width: 100%;
     height: 250px;
     background-color: #121212;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
   }
 
   .drjart-desc p {
     margin-left:  40px;
-    width: 80%;
+    width: 75%;
     font-size: 2.4rem;;
     letter-spacing: 0.1rem;
     text-align: left;
@@ -207,34 +204,21 @@
   }
 
   /* article :event*/
-  .event{
-    width: 100%;
-  }
-
   .event-desc{
-    width: 40%;
+    width: 30%;
     position: absolute;
-    top: 15%;
+    top:  15%;
     margin-left: 40px;
   }
   
   .event h5 {
     font-size: 2.8rem;
     color: #fff;
-    line-height: 3.8rem;
+    margin-bottom: 10px;
   }
   
   .event p {
     display: none;
   }
-
-
-  
-
-
-
-
-
-
 
 }

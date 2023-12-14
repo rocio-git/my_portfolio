@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +7,301 @@
   <!-- css -->
   <link rel="stylesheet" href="./css/base/font.css">
   <link rel="stylesheet" href="./css/base/reset.css">
+  <link rel="stylesheet" href="./css/base/header.css">
   <link rel="stylesheet" href="./css/bestseller/style.css">
+  <link rel="stylesheet" href="./css/bestseller/re-1280px.css">
+  <link rel="stylesheet" href="./css/bestseller/re-1024px.css">
+  <link rel="stylesheet" href="./css/bestseller/mobile.css">
+
   <!-- script -->
   <script src="./script/jquery-3.7.1.min.js"></script>
-  <script></script>
+  <script src="./script/script.js"></script>
 </head>
 <body>
-  
+  <!-- header -->
+  <header class="header">
+    <div class="header__inner">
+      <div class="header__start">
+        <i class="icon-mobile__hamburger" aria-label="모바일 네비게이션 메뉴"></i>
+        <a href="#"><h1 class="logo">drjart</h1></a>
+        <ul class="mobile__utilities">
+          <li><a href="#"><i class="icon-serch" aria-label="모바일 검색버튼"></i></a></li>
+          <li><a href="#"><i class="icon-cart" aria-label="모바일 장바구니버튼"></i></a></li>
+        </ul>
+      </div>
+      <div class="header__center">
+        <div class="header__advr">complimentary samples with each order</div>
+        <nav>
+          <ul class="gnb">
+            <li class="gnb__list">
+              <a href="#">bestseller</a>
+            </li>
+            <li class="gnb__list has-dropdown">
+              <a href="#">shop by category</a>
+              <div class="dropdown-wrap">
+                <div class="dropdown-main">
+                  <div class="dropdown-title">
+                    <a href="#">shop by<br>category</a>
+                  </div>
+                  <div class="dropdown-list">
+                    <ul>
+                      <li><a href="#">vital hydra solution</a></li>
+                      <li><a href="#">cicapair</a></li>
+                      <li><a href="#">ceramidin</a></li>
+                      <li><a href="#">bb creams</a></li>
+                      <li><a href="#">all face masks</a></li>
+                      <li><a href="#">rubber face masks</a></li>
+                      <li><a href="#">teatreement</a></li>
+                      <li><a href="#">pore.remedy</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="dropdown-aside">
+                  <div class="aside-wrap">
+                    <a href="#" class="aside-img i1">
+                      <p class="aside-desc d1">Vital Hydra Solution™</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="gnb__list has-dropdown">
+              <a href="#">shop by collection</a>
+              <div class="dropdown-wrap" style="display: none;">
+                <div class="dropdown-main">
+                  <div class="dropdown-title">
+                    <a href="#">shop by collection</a>
+                  </div>
+                  <div class="dropdown-list">
+                    <ul>
+                      <li><a href="#">cicapair™</a></li>
+                      <li><a href="#">ceramidin™</a></li>
+                      <li><a href="#">pore.remedy™</a></li>
+                      <li><a href="#">dermask™</a></li>
+                      <li><a href="#">teatreement™</a></li>
+                      <li><a href="#">cryo rubber™</a></li>
+                      <li><a href="#">Cica Solution™</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="dropdown-aside">
+                  <div class="aside-wrap">
+                    <a href="#" class="aside-img i2">
+                      <p class="aside-desc d2">Cica Care Cicapair™</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="gnb__list"><a href="#">shop by concer</a></li>
+            <li class="gnb__list"><a href="#">offers</a></li>
+            <li class="gnb__list"><a href="#">about</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__end">
+        <ul class="user__utilities">
+          <li><a href="#">search</a></li>
+          <li><a href="#">log in</a></li>
+          <li><a href="#">bag</a></li>
+        </ul>
+      </div>
+
+      <div class="mobile__menu">
+        <div class="mobile__menu-inner">
+          <i class="icon-close" aria-label="모바일 닫기버튼"></i>
+          <ul>
+            <li class="mobile__menu-list">
+              <a href="#">bestseller</a>
+            </li>
+            <li class="mobile__menu-list has-dropdown">
+              <a href="#">shop by category<i class="icon-chevron"></i></a>
+              <ul class="moblie__dropdown">
+                <li><a href="#">vital hydra solution</a></li>
+                <li><a href="#">cicapair</a></li>
+                <li><a href="#">ceramidin</a></li>
+                <li><a href="#">bb creams</a></li>
+                <li><a href="#">all face masks</a></li>
+              </ul>
+            </li>
+            <li class="mobile__menu-list has-dropdown">
+              <a href="#">shop by collection<i class="icon-chevron"></i></a>
+              <ul class="moblie__dropdown">
+                <li><a href="#">cicapair™</a></li>
+                <li><a href="#">ceramidin™</a></li>
+                <li><a href="#">pore.remedy™</a></li>
+                <li><a href="#">dermask™</a></li>
+                <li><a href="#">teatreement™</a></li>
+              </ul>
+            </li>
+            <li class="mobile__menu-list">
+              <a href="#">shop by concern</a>
+            </li>
+            <li class="mobile__menu-list">
+              <a href="#">offers</a>
+            </li>
+            <li class="mobile__menu-list">
+              <a href="#">about</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <!--/.header__inner-->
+  </header>
+  <!-- bestseller__top -->
+  <section class="bestseller">
+    <picture>
+      <source srcset="./assets/imgs/bestseller/img-bestseller.png" media="(min-width:768px)">
+      <img src="./assets/imgs/bestseller/img-bestseller.png" alt="bestseller 배경이미지">
+    </picture>
+    <h2>bestseller</h2>
+    </div>
+  </section>
+  <main>
+    <div class="main-inner">
+      <h3>bestseller items</h3>
+      <div class="main-img"><img src="../drJart/assets/imgs/bestseller/img-best-main.svg" alt="메인이미지"></div>
+      <!-- line1 -->
+      <a href="#" class="item">
+          <img src="../drJart/assets/imgs/bestseller/img-line1-item1.svg" alt="시카 세럼" class="item-img1 on">
+          <div class="item-info">
+            <p class="item-name">CICAPAIR™ CERUM</p>
+            <p class="item-price">$34.00</p>
+          </div>
+      </a>
+      <a href="#" class="item">
+          <img src="../drJart/assets/imgs/bestseller/img-line1-item2.svg" alt="시카 로션" class="item-img2 on">
+          <div class="item-info">
+            <p class="item-name">CICAPAIR™ LOTION</p>
+            <p class="item-price">$36.00</p>
+          </div>
+      </a>
+      <a href="#" class="item">
+          <img src="../drJart/assets/imgs/bestseller/img-line1-item3.svg" alt="시카 크림" class="item-img3 on">
+          <div class="item-info">
+            <p class="item-name">CICAPAIR™ CREAM</p>
+            <p class="item-price">$52.00</p>
+          </div>
+      </a>
+      <!-- line2 -->
+      <a href="#" class="item">
+          <img src="../drJart/assets/imgs/bestseller/img-line2-item1.svg" alt="세라마이드 마스크팩" class="item-img4 on">
+          <div class="item-info">
+            <p class="item-name">CERAMIDIN™ MASK</p>
+            <p class="item-price">$27.00</p>
+          </div>
+      </a>
+      <a href="#" class="item">
+          <img src="../drJart/assets/imgs/bestseller/img-line2-item2.svg" alt="세라마이드 크림" class="item-img5 on">
+          <div class="item-info">
+            <p class="item-name">CERAMIDIN™ CREAM</p>
+            <p class="item-price">$65.00</p>
+          </div>
+      </a>
+      <a href="#" class="item">
+          <img src="../drJart/assets/imgs/bestseller/img-line2-item3.svg" alt="세라마이드 세럼" class="item-img6 on">
+          <div class="item-info">
+            <p class="item-name">CERAMIDIN™ TONER</p>
+            <p class="item-price">$39.00</p>
+          </div>
+      </a>
+      <a href="#" class="item">
+          <img src="../drJart/assets/imgs/bestseller/img-line2-item4.svg" alt="세라마이드 아이크림" class="item-img on">
+          <div class="item-info">
+            <p class="item-name">CERAMIDIN™ EYE CREAM</p>
+            <p class="item-price">$40.00</p>
+          </div>
+      </a>  
+      <!-- line3 -->    
+      <a href="#" class="item" class="item">
+          <img src="../drJart/assets/imgs/bestseller/img-line3-item1.svg" alt="세라마이드 마스크팩" class="item-img4 on">
+          <div class="item-info">
+            <p class="item-name">PORE·REMEDY™ CLEANSER</p>
+            <p class="item-price">$27.00</p>
+          </div>
+      </a>
+      <a href="#" class="item">
+          <img src="../drJart/assets/imgs/bestseller/img-line3-item2.svg" alt="세라마이드 크림" class="item-img5 on">
+          <div class="item-info">
+            <p class="item-name">CERAMIDIN™ PEDS</p>
+            <p class="item-price">$65.00</p>
+          </div>
+      </a>
+      <a href="#" class="item">
+          <img src="../drJart/assets/imgs/bestseller/img-line3-item3.svg" alt="세라마이드 세럼" class="item-img6 on">
+          <div class="item-info">
+            <p class="item-name">CERAMIDIN™ CERUM</p>
+            <p class="item-price">$39.00</p>
+          </div>
+      </a>
+      <a href="#" class="item">
+          <img src="../drJart/assets/imgs/bestseller/img-line3-item4.svg" alt="세라마이드 아이크림" class="item-img7 on">
+          <div class="item-info">
+            <p class="item-name">CERAMIDIN™ MASK</p>
+            <p class="item-price">$40.00</p>
+          </div>
+      </a>      
+    </div>
+    <!-- /main-inner -->
+  </main>
+  <!-- article -->
+  <article class="drjart-desc">
+    <h4>drjart article</h4>
+    <p>
+      Shop Dr.Jart+ US's best skincare products to keep skin healthy and happy.<br>
+      Find the best, high-performance skincare for your unique routine.
+    </p>
+  </article>
+  <!-- event -->
+  <article class="event">
+      <picture>
+        <source srcset="./assets/imgs/bestseller/img-event-main.png" media="(min-width:1024px)">
+        <img src="./assets/imgs/bestseller/img-event-main.png" alt="이벤트이미지">
+      </picture>
+      <div class="event-desc">
+        <h5>Dermatological Korean Skincare Gift Sets</h5>
+        <p>Just hit gift wrap at checkout.</p>
+      </div>
+  </article>
+
+  <!--footer-->
+  <footer class="footer">
+    <div class="inner">
+      <div class="footer__head">
+        <a href="#" class="footer__logo"></a>
+        <ul class="footer__social-links">
+          <li><a href="#"><i class="icon-facebook"></i></a></li>
+          <li><a href="#"><i class="icon-instagram"></i></a></li>
+          <li><a href="#"><i class="icon-youtube"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer__body">
+        <ul>
+          <li>Social</li>
+          <li><a href="#">facebook</a></li>
+          <li><a href="#">instagram</a></li>
+          <li><a href="#">youtube</a></li>
+        </ul>
+        <ul>
+          <li>Shop</li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Store Locater</a></li>
+        </ul>
+        <ul>
+          <li>About</li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+        </ul>
+        <ul>
+          <li>Need Help?</li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">My Profile</a></li>
+          <li><a href="#">Shipping</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

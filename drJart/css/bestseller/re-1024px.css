@@ -1,0 +1,26 @@
+@media all and (max-width: 1023px) {
+
+  html {
+    font-size:  8px;
+  }
+
+/* article */
+
+.drjart-desc p {
+  font-size: 2rem;
+}
+
+/* article :event*/
+
+.event h5 {
+  font-size: 2.8rem;
+  color: #fff;
+}
+
+.event p {
+  font-size: 2.8rem;
+  color: #fff;
+  font-family: "sect-title";
+}
+
+}

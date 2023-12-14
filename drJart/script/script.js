@@ -44,6 +44,20 @@ $(".mobile__menu-list > a").on("click", function(){
 
 
 
+//bestseller 이미지 호버
+$("a.item").each(function(){
+  let nowImg = $(this).find("img");
+  let srcName = nowImg.attr("src");
+  let newSrc = srcName.substring(0, srcName.lastIndexOf("."));
+
+  $(this).hover(function(){
+    $(this).find("img").attr("src", newSrc+ "-hover." + /[^.]+$/.exec(srcName),500);
+  }, function(){
+    $(this).find("img").attr("src", newSrc+ "." + /[^.]+$/.exec(srcName),500);
+  });
+});
+
+
 
 
 

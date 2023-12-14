@@ -15,9 +15,14 @@
   }
   
 /* article */
+.drjart-desc {
+  height: 250px;
+}
 
 .drjart-desc p {
+  width: 90%;
   font-size: 2.4rem;
+  line-height: 3.4rem;
 }
 
 /* article :event*/

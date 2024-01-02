@@ -10,6 +10,25 @@
       font-size: 4rem;
     }
 
+    .header__center {
+      width:  calc(100vw - 400px);
+    }
+
+    .header__end  {
+      width:  150px;
+    }
+    
+    .user__utilities  {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .user__utilities a  {
+      font-size: 1rem;
+      text-transform: uppercase;
+      color: var(--sub-white);
+    }
+
     /* header : dropdown */
 
     .dropdown-wrap {

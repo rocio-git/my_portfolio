@@ -46,4 +46,13 @@
   font-family: "sect-title";
 }
 
+.footer > .inner{
+  margin-top: 0;
+  padding:  60px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 }

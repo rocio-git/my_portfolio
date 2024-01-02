@@ -49,6 +49,10 @@
   font-size: 2.2rem;
 }
 
+.event-desc {
+  margin-left: 100px;
+}
+
 /* footer */
 
 .footer > .inner  {
@@ -65,17 +69,5 @@
 .footer__social-links i {
   font-size:  35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

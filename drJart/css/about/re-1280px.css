@@ -1,0 +1,148 @@
+@media all and (max-width: 1279px) {
+  html {
+    font-size:  9px;
+  }
+  
+  .about__wrap {
+    margin: 0 auto;
+  }
+
+
+  /* main */
+
+  .main {
+    margin-top: 140px;
+    padding:  0 50px;
+  }
+
+
+  /* sub-txt */
+
+  .sub-txt {
+    margin-top: 140px;
+  }
+
+
+  /* inspiration */
+
+  .inspiration {
+    margin-top: 140px;
+    padding:  0 50px;
+  }
+
+  /* collections */
+
+  .collections {
+    margin-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .collections h4 {
+    margin-top: 100px;
+  }
+
+  .collections ul {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .collections ul li {
+    width: 90%;
+    height: 300px;
+  }
+
+  .collections ul li.select {
+    width: 90%;
+  }
+
+  .collections ul li a img{
+    height: 300px;
+  }
+
+  .collect-title {
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .collect-arrow {
+    display: none;
+  }
+
+  .collect-wrap {
+    display: flex;
+  }
+
+  .collect-wrap > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:  5rem;
+  }
+
+  .cicapair{
+    display: flex;
+  }
+
+  .cicapair > .fir {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .collect-title {
+    width: calc(100% - 200px);
+  }
+
+  .swiper {
+    display: none;
+  }
+
+  .about-load-box {
+    width:  200px;
+    height: 50px;
+    border: 1px solid #121212;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Noto-Sans";
+    font-size: 1.8rem;
+    color:  #fff;
+    display:  block;
+    position: relative;
+    transition: all 0.6s;
+    z-index: 0;
+    background-color: #000;
+  }
+  
+  .about-load-box:hover{
+    color:  #121212;
+  }
+  
+  .about-loading-bar{
+    width:  0;
+    height: 100%;
+    position: absolute;
+    top:  0;
+    left: 0;
+    z-index: -1;
+    background-color: #fff;
+  }
+  
+  .icon-arrow-right {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}

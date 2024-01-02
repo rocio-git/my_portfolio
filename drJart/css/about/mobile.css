@@ -1,0 +1,191 @@
+@media all and (max-width: 767px) {
+  html {
+    font-size:  7px;
+    min-width: 320px;
+  }
+
+
+  /* main */
+
+  .main {
+    margin-top: 0px;
+    padding: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .main img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .main-txt {
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .main-txt h2 {
+    font-family: "sect-title";
+    font-size: 4.2rem;
+    font-weight: 500;
+  }
+
+  .main-txt p {
+    margin-top: 20px;
+    font-family: "Noto-Sans-r";
+    font-size: 3rem;
+  }
+
+
+  /* sub-txt */
+
+  .sub-txt {
+    margin-top: 140px;
+    padding:  0 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  } 
+
+  .sub-txt p {
+    font-family: "Noto-Sans-r";
+    font-size: 3rem;
+    text-align: center;
+    line-height: 6rem;
+    font-style: italic;
+    color: #9b9b9b;
+    letter-spacing: 0.2rem;
+  }
+
+
+  /* inspiration */
+
+  .inspiration {
+    padding:  0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .ins-txt h3 {
+    font-size: 4.2rem;
+    padding-left: 20px;
+  }
+
+  .inspiration .ins-img img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .inspiration .ins-txt {
+    margin-top: 20px;
+    width: 100%;
+    transform: translateY(0);
+  }
+
+  .ins-txt > p {
+    padding-left: 20px;
+    margin-top: 40px;
+    width: 70%;
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+  }
+
+  .ins-txt > span {
+    padding-left: 20px;
+  }
+  .ins-txt > span > p {
+    font-size: 2.2rem;
+  }
+
+
+
+  
+  /* collections */
+
+  .collections {
+    padding-bottom: 40px;
+    justify-content: flex-start;
+  } 
+
+  .collections h4 {
+    margin-top: 40px;
+    font-size: 4.2rem;
+  }
+
+  .collect-desc{
+    display: none;
+  }
+
+  .collections ul {
+    margin-top: 20px;
+    justify-content: flex-start;
+  }
+
+  .collections ul li {
+    margin-top: 20px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .collect-wrap{
+    margin-left:  0px;
+    background-color: #121212;
+  }
+
+  .collect-wrap > div{
+    padding: 0 0 20px 0;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .collections ul li a img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .collect-title{
+    margin-top: 20px;
+    font-size: 4rem;
+    color: #fff;
+  }
+
+  .about-load-box{
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 96%;
+    height: 40px;
+    text-align: start;
+    line-height: 40px;
+    border: 1px solid #fff;
+    font-size: 2.2rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

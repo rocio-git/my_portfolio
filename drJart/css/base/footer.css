@@ -55,7 +55,9 @@
 .footer__body a {
   font-family: "Noto-Sans-m";
   color:  #9d9d9d;
+  margin-bottom:  5px;
 }
+
 
 
 /* footer < 1280px */
@@ -87,6 +89,10 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .footer__social-links {
+    width: 120px;
+  } 
 }
 
 

@@ -71,16 +71,8 @@ $("a.item").each(function(){
       });
     }
 
+    //사이즈 변경시 자동 새로고침
     $(window).resize(function(){document.location.reload();})
-    // 리사이즈 끝나고 1초마다 리셋
-    const delay = 1000;
-    const timer = null; 
-    $(window).on('resize', function(){
-      clearTimeout(timer);
-      timer = setTimeout(function(){
-      document.location.reload();
-      }, delay);
-  });
 
 
   //About : collections -right arrow
@@ -116,15 +108,20 @@ $("a.item").each(function(){
     });
   });
 
+  //About : collections - 로딩바 원상태
 
-  //About : collections 로딩바
-  $(".about-load-box").mouseover(function(){
-    $(this).find(".about-loading-bar").stop().animate({width: 100 + "%"}, 600);
-   });
-  $(".about-load-box").mouseout(function(){
-    $(this).find(".about-loading-bar").stop().animate({width:0}, 600);
-   });
-
+   if ($(window).width() > 768) {
+    $(".about-load-box").mouseover(function(){
+      $(this).find(".about-loading-bar").stop().animate({width: 100 + "%"}, 600);
+     });
+    $(".about-load-box").mouseout(function(){
+      $(this).find(".about-loading-bar").stop().animate({width:0}, 600);
+     });
+    } else{
+      $(".about-load-box").mouseout(function(){
+        $(this).find(".about-loading-bar").stop().animate({width:0}, 600);
+       });
+    }
 
 
 

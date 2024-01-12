@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+.advr {
+  height: 40px;
+  background-color: #121212;
+  color:  #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "NanumSquare-B";
+  letter-spacing: 0.04rem;
+}
+
+.advr > div {
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+.header {
+  height: 60px;
+  padding:  0 40px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_left {
+  width: 33%;
+  display: flex;
+}
+
+.header_left .mobile {
+  display: none;
+}
+
+.nav .gnb{
+  display: flex;
+}
+
+.nav .gnb li {
+  padding-right: 60px;
+}
+
+.nav .gnb li a {
+  height: 60px;
+  font-size:  1.2rem;
+  text-align: center;
+  line-height: 60px;
+  letter-spacing: 0.04rem;
+}
+
+.header_center {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_center .logo{
+  width:  140px;
+  height: 27px;
+  background-image: url(../../assets/imgs/main/patagonialogo.svg);
+}
+
+.header_right {
+  width: 33%;
+}
+
+.header_right ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_right ul li {
+  padding-left:  60px;
+}
+
+.header_right ul li a {
+  font-size:  1.6rem;
+  text-align: center;
+}
+
+

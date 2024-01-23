@@ -3,37 +3,37 @@
   font-family: "NanumSquareNeo-Hv";
   font-style: normal;
   font-weight:  800;
-  src: url("../../assets/fonts/NanumSquareNeo-eHv.ttf");
+  src: url("../../assets/fonts/NanumSquareNeoOTF-Hv.otf");
 }
 
 @font-face {
   font-family: "NanumSquareNeo-Eb";
   font-style: normal;
   font-weight:  800;
-  src: url("../../assets/fonts/NanumSquareNeo-dEb.ttf");
+  src: url("../../assets/fonts/NanumSquareNeoOTF-Eb.otf");
 }
 
 @font-face {
   font-family: "NanumSquare-B";
   font-style: normal;
   font-weight:  800;
-  src: url("../../assets/fonts/NanumSquareB.ttf");
+  src: url("../../assets/fonts/NanumSquareB.otf");
 }
 
 @font-face {
   font-family: "NanumSquare-R";
   font-style: normal;
-  font-weight:  800;
-  src: url("../../assets/fonts/NanumSquareR.ttf");
+  font-weight:  400;
+  src: url("../../assets/fonts/NanumSquareR.otf");
 }
 
 @font-face {
   font-family: 'patagonia';
-  src:  url('fonts/patagonia.eot?ktyur7');
-  src:  url('fonts/patagonia.eot?ktyur7#iefix') format('embedded-opentype'),
-        url('fonts/patagonia.ttf?ktyur7') format('truetype'),
-        url('fonts/patagonia.woff?ktyur7') format('woff'),
-        url('fonts/patagonia.svg?ktyur7#patagonia') format('svg');
+  src:  url('../../assets/icons/patagonia.eot');
+  src:  url('../../assets/icons/patagonia.eot') format('embedded-opentype'),
+        url('../../assets/icons/patagonia.ttf') format('truetype'),
+        url('../../assets/icons/patagonia.woff') format('woff'),
+        url('../../assets/icons/patagonia.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

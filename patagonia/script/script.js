@@ -152,7 +152,7 @@ $(function(){
 
   slider2slide.hide().eq(slider2currentIdx).show();
 
-  setInterval(slider2NextSlide, 3500);
+  setInterval(slider2NextSlide, 3400);
 
   function slider2NextSlide(){
     let slider2nextIdx = (slider2currentIdx + 1) % slider2Count;

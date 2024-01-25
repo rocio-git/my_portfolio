@@ -320,6 +320,7 @@ section.shop {
 
 
 /* section : anniver50 */
+
 section.anniver50 {
   margin-top: 100px;
   position: relative;
@@ -400,6 +401,7 @@ section.anniver50 {
 
 
 /* section : anniver50_shop */
+
 section.anniver50_shop {
   width: 100%;
   margin-top: 100px;
@@ -441,6 +443,7 @@ section.anniver50_shop {
 
 
 /* section : anniver50-items */
+
 section.anniver50_items {
   margin-top: 100px;
   display: flex;
@@ -545,45 +548,8 @@ section.anniver50_items {
 
 
 
-/* article : working_knowledge */
-article.working_knowledge {
-  width: 100%;
-  margin-top: 140px;
-}
-
-.working_knowledge_wrapper {
-  display: flex;
-  align-items: flex-start;
-}
-
-.working_knowledge_wrapper video {
-  width: 50%;
-  margin-left:  40px;
-}
-
-.working_knowledge_img_conts {
-  width: 30%;
-  padding-left: 100px;
-}
-
-.working_knowledge_title {
-  margin-top: 24px;
-  font-family: "NanumSquareNeo-Hv";
-  font-size: 2.4rem;
-  letter-spacing: 0.04rem;
-}
-
-.working_knowledge_desc1 {
-  margin-top: 18px;
-  font-family: "NanumSquare-R";
-  font-size: 1.3rem;
-  letter-spacing: 0.06rem;
-  line-height: 2.2rem;
-}
-
-
-
 /* slider2_sectiontitle */
+
 .slider2_sectiontitle {
   margin-top: 200px;
   display: block;
@@ -596,6 +562,7 @@ article.working_knowledge {
 
 
 /* section : slider2 */
+
 section.slider2 {
   margin-top: 50px;
   width: 100%;
@@ -646,6 +613,7 @@ section.slider2 {
 
 
 /* section : collection */
+
 section.collection {
   margin-top: 100px;
   position: relative;
@@ -681,7 +649,7 @@ section.collection {
 }
 
 .collection_img_conts::before{
-  content:  attr(data-before);
+  content:  "";
   display: block;
   position: absolute;
   bottom: 0;

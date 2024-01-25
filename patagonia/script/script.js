@@ -73,9 +73,10 @@ $(function(){
     centerPadding: '44px',
     responsive : [
       {
-        breakpoint : 960,
+        breakpoint : 1024,
         settings : {
           slidesToShow: 2,
+          centerPadding: '0px',
         }
       }
     ],
@@ -130,9 +131,10 @@ $(function(){
       centerPadding: '44px',
       responsive : [
         {
-          breakpoint : 960,
+          breakpoint : 1024,
           settings : {
             slidesToShow: 2,
+            centerPadding: '0px',
           }
         }
       ],

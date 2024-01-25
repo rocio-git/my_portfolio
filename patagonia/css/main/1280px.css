@@ -1,0 +1,50 @@
+@media all and (max-width: 1279px) {
+
+html {
+  font-size: 10px;
+}
+
+
+
+/* main */
+
+.main .img_conts {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 0 40px;
+  color:  #ffffff;
+  z-index: 0;
+  transition: color 0.5s;
+  word-break: keep-all;
+}
+
+.slider2_sectiontitle {
+  font-size: 1.4rem;
+}
+
+
+
+/* section : collection */
+
+.collection_img_title {
+  width: 50%;
+  word-break: keep-all;
+  line-height: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

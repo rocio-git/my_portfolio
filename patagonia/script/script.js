@@ -14,14 +14,14 @@ $(function(){
 
 
   //main : img 스크립트
-  $(".img-conts").mouseover(function(){
-    $(this).toggleClass('on');
-    $(this).find(".main-img-desc2").css("padding-left","30px");
+  $(".img_conts").mouseover(function(){
+    $(this).toggleClass('.on');
+    $(this).find(".main_img_desc2").css("padding-left","30px");
     $(this).find(".icon-caret-right-fill").css("opacity","100");
   });
-  $(".img-conts").mouseout(function(){
-    $(this).removeClass('on');
-    $(this).find(".main-img-desc2").css("padding-left","0");
+  $(".img_conts").mouseout(function(){
+    $(this).removeClass('.on');
+    $(this).find(".main_img_desc2").css("padding-left","0");
     $(this).find(".icon-caret-right-fill").css("opacity","0");
   });
 

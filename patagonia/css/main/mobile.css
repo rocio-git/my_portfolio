@@ -65,6 +65,50 @@
   }
   
 
+  /* slider 1 */
+  .slider1-wrapper > div {
+    width: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:  2.4rem;
+    position: absolute;
+    padding: 0 30px;
+  }
+
+
+
+    /* slider 2 */
+    .slider2_sectiontitle {
+      padding:  0 30px;
+      word-break: keep-all;
+    }
+
+    .slider2_title {
+      text-align: center;
+      word-break: keep-all;
+    }
+
+    .slider2_desc {
+      text-align: center;
+      word-break: keep-all;
+    }
+
+    .slider2_wrapper > div {
+      width: calc(100% - 60px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap:  2.4rem;
+      position: absolute;
+      padding: 0 30px;
+    }
+  
+
+
+
   /* event */
   .event_img_conts {
     width: calc(100% - 60px);

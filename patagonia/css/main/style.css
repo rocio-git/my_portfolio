@@ -121,19 +121,14 @@ section.slider1 {
 }
 
 .slider1-wrapper > div {
-  width: calc(100% - 60px);
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap:  2.4rem;
   position: absolute;
-  padding: 0 30px;
 }
-
-/* .slider1-3 .slider1-desc {
-  line-height: 50px;
-} */
 
 h3.slider1-title {
   font-family: "NanumSquareNeo-Eb";

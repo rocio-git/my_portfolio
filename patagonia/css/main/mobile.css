@@ -1,0 +1,36 @@
+@media all and (max-width: 767px) {
+
+  html {
+    font-size: 8px;
+    min-width: 320px;
+  }
+  /* header */
+  .header {
+    padding:  0 20px;
+  }
+
+  .header_right ul li {
+    padding-left: 20px;
+  }
+  .header_center {
+    width: 33%;
+  }
+
+  .header_center .logo {
+    height: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+}

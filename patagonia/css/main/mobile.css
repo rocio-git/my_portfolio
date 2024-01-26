@@ -8,6 +8,7 @@
 
 
   /* header */
+
   .header {
     padding:  0 30px;
   }
@@ -39,5 +40,56 @@
   .slick-dots {
     transform: translateY(-180%);
   }
+
+  .slick-prev {
+    filter: invert(0.6);
+  }
+
+  .slick-next {
+    filter: invert(0.6);
+  }
+
+
+  /* collection */
+  .collection_img_conts {
+    width: calc(100% - 60px);
+    padding:  0 30px;
+  }
+
+
+
+  /* anniver50 */
+  .anniver50_img_conts {
+    width: calc(100% - 60px);
+    padding:  0 30px;
+  }
+  
+
+  /* event */
+  .event_img_conts {
+    width: calc(100% - 60px);
+    padding:  0 30px;
+  }
+  
+
+
+  /* footer */
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

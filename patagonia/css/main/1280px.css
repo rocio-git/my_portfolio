@@ -9,7 +9,7 @@ html {
 /* main */
 
 .main .img_conts {
-  width: 100%;
+  width: calc(100% - 80px);
   position: absolute;
   bottom: 0;
   padding: 0 40px;
@@ -21,6 +21,21 @@ html {
 
 .slider2_sectiontitle {
   font-size: 1.4rem;
+}
+
+
+/* slick */
+
+.slick-dots {
+  transform: translateY(-140%);
+}
+
+.slick-prev {
+  filter: invert(0.4);
+}
+
+.slick-next {
+  filter: invert(0.4);
 }
 
 
@@ -36,6 +51,7 @@ html {
 
 
 /* footer */
+
 .footer {
   margin-top: 0;
   padding: 80px 40px;

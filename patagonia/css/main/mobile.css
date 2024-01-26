@@ -4,16 +4,16 @@
     font-size: 8px;
     min-width: 320px;
   }
+
+
+
   /* header */
   .header {
-    padding:  0 20px;
+    padding:  0 30px;
   }
 
   .header_right ul li {
-    padding-left: 20px;
-  }
-  .header_center {
-    width: 33%;
+    padding-left: 30px;
   }
 
   .header_center .logo {
@@ -25,12 +25,19 @@
 
 
 
+  /* main */
+
+  .main .img_conts {
+    width: calc(100% - 60px);
+    padding:  0 30px;
+  }
 
 
 
+  /* slick */
 
-
-
-
+  .slick-dots {
+    transform: translateY(-180%);
+  }
 
 }

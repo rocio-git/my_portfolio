@@ -156,6 +156,27 @@ section.anniver50_items {
   width: 100%;
 }
 
+.anniver50_items .img_conts {
+  height: auto;
+}
+
+.anniver50_items_img_title {
+  margin-top: 14px;
+}
+
+.anniver50_items .anniver50_items_img_desc1 {
+  margin-top: 14px;
+}
+
+.anniver50_items_img_desc2 {
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
+
+.anniver50_items_img1 .anniver50_items_img_title {
+  margin-bottom:  24px;
+}
+
 
 
 /* section : shop */

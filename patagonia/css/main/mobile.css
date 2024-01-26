@@ -123,6 +123,43 @@
     align-items: flex-start;
   }
 
+  .footer_menu1 {
+    display: flex;
+    gap:  2.4rem;
+  }
+
+  .footer_menu1 li a {
+    width: 150px;
+    padding:  1rem;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    color:  #ffffff;
+    transition: background-color 0.4s;
+  }
+
+  .footer_menu1 li a:hover {
+    color: #121212;
+    background-color: #ffffff;
+  }
+
+  .footer_menu2 {
+    display: flex;
+    gap:  2.4rem;
+  }
+
+  .footer_menu2 li:nth-child(9) a{
+    font-family: "NanumSquare-B";
+    color:  #ffffff;
+  }
+
+  .footer_menu2 li a {
+    color:  #ccc;
+  }
+
+  .footer span {
+    color:  #ffffff;
+  }
 
 
 

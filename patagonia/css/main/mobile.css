@@ -50,7 +50,9 @@
   }
 
 
+
   /* collection */
+
   .collection_img_conts {
     width: calc(100% - 60px);
     padding:  0 30px;
@@ -59,14 +61,16 @@
 
 
   /* anniver50 */
+
   .anniver50_img_conts {
     width: calc(100% - 60px);
     padding:  0 30px;
   }
   
 
-  /* slider 1 */
-  .slider1-wrapper > div {
+/* slider 1 */
+
+.slider1-wrapper > div {
     width: calc(100% - 60px);
     display: flex;
     flex-direction: column;
@@ -79,33 +83,47 @@
 
 
 
-    /* slider 2 */
-    .slider2_sectiontitle {
-      padding:  0 30px;
-      word-break: keep-all;
-    }
+  /* slider 2 */
 
-    .slider2_title {
-      text-align: center;
-      word-break: keep-all;
-    }
+  .slider2_sectiontitle {
+    padding:  0 30px;
+    word-break: keep-all;
+  }
 
-    .slider2_desc {
-      text-align: center;
-      word-break: keep-all;
-    }
+  .slider2_title {
+    text-align: center;
+    word-break: keep-all;
+  }
+  .slider2_desc {
+    text-align: center;
+    word-break: keep-all;
+  }
+  .slider2_wrapper > div {
+    width: calc(100% - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:  2.4rem;
+    position: absolute;
+    padding: 0 30px;
+  }
 
-    .slider2_wrapper > div {
-      width: calc(100% - 60px);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap:  2.4rem;
-      position: absolute;
-      padding: 0 30px;
-    }
-  
+
+
+  /* shop */
+
+  .shop_conts {
+    padding-left: 30px;
+  }
+
+
+
+  /* .anniver50_items */
+  .anniver50_items .img_conts {
+    width: calc(100% - 60px);
+    padding:  0 30px;
+  }
 
 
 
@@ -114,23 +132,39 @@
     width: calc(100% - 60px);
     padding:  0 30px;
   }
-  
+
+
 
 
   /* footer */
+
   .footer {
+    width: calc(100% - 60px);
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
+    padding:  80px 30px;
   }
 
   .footer_menu1 {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
     gap:  2.4rem;
   }
 
+  .footer_menu1 li {
+    max-width: 100px;
+    width:  45%;
+  }
+
   .footer_menu1 li a {
-    width: 150px;
-    padding:  1rem;
+    width:  100%;
+    display: block;
+    padding:  0;
+    line-height: 4rem;
     border: 2px solid #ffffff;
     border-radius: 50px;
     text-align: center;
@@ -160,17 +194,5 @@
   .footer span {
     color:  #ffffff;
   }
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

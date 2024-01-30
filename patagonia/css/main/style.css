@@ -779,7 +779,6 @@ section.event {
 /* footer */
 
 .footer {
-  margin-top: 100px;
   padding: 80px 40px;
   display: flex;
   flex-direction: column;

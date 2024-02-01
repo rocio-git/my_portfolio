@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+html {
+  font-size: 12px;
+}
+
+
+
+/* section : title */
+
+section.title_area {
+  margin-top: 100px;
+  padding-bottom: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+section.title_area h2 {
+  margin-left: 40px;
+  display: block;
+  width: 50%;
+  font-family: "NanumSquareNeo-Eb";  
+  font-size: 2.4rem;
+}
+
+section.title_area span {
+  display: block;
+  width: 50%;
+  font-family: "NanumSquare-R";
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  word-break: keep-all;
+}
+
+
+
+/* page_nav */
+
+.page_nav {
+  margin: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page_nav a > i {
+  font-size: 1.2rem;
+  padding-right:  10px;
+}
+
+.page_nav > a {
+  font-family: "NanumSquare-R";
+  font-size: 1.2rem;
+}
+
+.page_nav ul {
+  margin-left:  2px; 
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-family: "NanumSquare-R";
+  font-size: 1.2rem;
+}
+
+.page_nav ul li:first-child {
+  font-family: "NanumSquare-B";
+}
+
+
+
+/* section : gifts_for_all */
+
+.for_all_wrapper {
+  width: calc(100% - 80px);
+  margin: 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:  4px;
+}
+
+.for_all_wrapper > div {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.for_all_wrapper > div a {
+  width: 100%;
+}
+
+.for_all_wrapper > div a img {
+  width: 100%;
+  height: auto;
+}
+
+.item_title {
+  margin-top: 20px;
+  font-family: "NanumSquare-B";
+  font-size: 1.4rem;
+}
+
+.item_desc {
+  display: none;
+  margin-top: 20px;
+  width: 80%;
+  color: #555555;
+  font-family: "NanumSquare-R";
+  font-size: 1.2rem;
+  line-height: 2rem;
+  word-break: keep-all;
+}
+
+.item_price {
+  margin-top: 20px;
+  font-family: "NanumSquare-B";
+  font-size: 1.4rem;
+}
+
+
+
+
+
+
+

@@ -1,5 +1,16 @@
-@charset "UTF-8";
+@media all and (max-width: 1279px) {
 
-html {
-  font-size: 11px;
+  html {
+    font-size: 11px;
+  }
+  
+
+
+
+/* button */
+
+.button_more {
+  width: 20%;
+}
+
 }

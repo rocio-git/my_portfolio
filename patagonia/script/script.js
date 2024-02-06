@@ -1,6 +1,7 @@
 $(function(){
 
   //advr 슬라이더 적용
+
   $('.advr').slick({
     vertical: true,
     slidesToShow: 1,
@@ -14,6 +15,7 @@ $(function(){
 
 
   //main : img 스크립트
+
   $(".img_conts").mouseover(function(){
     $(this).toggleClass('.on');
     $(this).find(".main_img_desc2").css("padding-left","30px");
@@ -28,6 +30,7 @@ $(function(){
 
 
   //section : slider-1 
+
   let slide = $(".slider1-wrapper > div");
   let slideCount = slide.length;
   let currentIdx = 0;
@@ -46,6 +49,7 @@ $(function(){
 
 
   //section : collection 스크립트
+
   $(".collection_img_conts").mouseover(function(){
     $(this).toggleClass('on');
     $(this).find(".collection_img_desc2").css("padding-left","30px");
@@ -60,6 +64,7 @@ $(function(){
 
 
   //section : shop
+
   $('.shop_wrapper').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -90,6 +95,7 @@ $(function(){
 
 
   // section : anniver50 스크립트
+
     $(".anniver50_img_conts").mouseover(function(){
       $(this).toggleClass('on');
       $(this).find(".anniver50_img_desc2").css("padding-left","30px");
@@ -104,6 +110,7 @@ $(function(){
 
 
     // section : anniver50_items
+
     $(".img_conts").mouseover(function(){
       $(this).toggleClass('on');
       $(this).find(".anniver50_items_img_desc2").css("padding-left","30px");
@@ -118,6 +125,7 @@ $(function(){
 
 
     //section : shop
+
     $('.anniver50_shop_wrapper').slick({
       slidesToShow: 4,
       slidesToScroll: 1,
@@ -148,6 +156,7 @@ $(function(){
 
 
   //section : slider-2 
+
   let slider2slide = $(".slider2_wrapper > div");
   let slider2Count = slider2slide.length;
   let slider2currentIdx = 0;
@@ -166,6 +175,7 @@ $(function(){
 
 
   //section : event 스크립트
+  
   $(".event_img_conts").mouseover(function(){
     $(this).toggleClass('on');
     $(this).find(".event_img_desc2").css("padding-left","30px");

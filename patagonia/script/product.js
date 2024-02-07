@@ -34,7 +34,7 @@ $(function(){
   
   $(".membership_img_conts").mouseover(function(){
     $(this).toggleClass('on');
-    $(this).find(".membership_img_desc2").css("padding-left","26px");
+    $(this).find(".membership_img_desc2").css("padding-left","20px");
     $(this).find(".icon-caret-right-fill").css("opacity","100");
   });
   $(".membership_img_conts").mouseout(function(){
@@ -43,7 +43,8 @@ $(function(){
     $(this).find(".icon-caret-right-fill").css("opacity","0");
   });
 
-
+//반응형  caret-right-fill 확정하기
+  
 
 
 

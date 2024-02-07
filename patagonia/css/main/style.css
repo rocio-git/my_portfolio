@@ -14,7 +14,7 @@ html {
   gap: 2px;
 }
 
-.main > div {
+.main > a {
   width: calc(50% - 2px);
   height: fit-content;
   display: flex;
@@ -24,12 +24,12 @@ html {
   position: relative;
 }
 
-.main > div img {
+.main > a img {
   width:  100%;
   position: relative;
 }
 
-.main > div picture::after{
+.main > a picture::after{
   content:  "";
   display: block;
   position: absolute;

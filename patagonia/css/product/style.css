@@ -42,30 +42,22 @@ section.title_area span {
 .page_nav {
   margin: 20px 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  gap: 15px;
 }
 
 .page_nav a > i {
   font-size: 1.2rem;
-  padding-right:  10px;
 }
 
-.page_nav > a {
+.page_nav span {
   font-family: "NanumSquare-R";
   font-size: 1.2rem;
 }
 
-.page_nav ul {
+.page_nav span:first-child {
   margin-left:  2px; 
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  font-family: "NanumSquare-R";
-  font-size: 1.2rem;
-}
-
-.page_nav ul li:first-child {
   font-family: "NanumSquare-B";
 }
 
@@ -140,10 +132,10 @@ section.title_area span {
 .button_more {
   width: 10%;
   margin: 60px;
-  font-family: "NanumSquareNeo-Eb";
+  font-family: "NanumSquare-B";
   line-height: 4rem;
   letter-spacing: 0.04rem;
-  border: 2px solid #121212;
+  border: 1px solid #121212;
   border-radius: 50px;
   text-align: center;
   color:  #121212;

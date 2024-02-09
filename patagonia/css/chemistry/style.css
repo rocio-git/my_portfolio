@@ -43,35 +43,23 @@ section.title_area span {
 .page_nav {
   margin: 20px 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  gap: 15px;
 }
 
 .page_nav a > i {
   font-size: 1.2rem;
-  padding-right:  10px;
 }
 
-.page_nav > a {
+.page_nav span {
   font-family: "NanumSquare-R";
   font-size: 1.2rem;
 }
 
-.page_nav ul {
+.page_nav span:first-child {
   margin-left:  2px; 
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  font-family: "NanumSquare-R";
-  font-size: 1.2rem;
-}
-
-.page_nav ul li:first-child {
   font-family: "NanumSquare-B";
-}
-
-.page_nav ul li:last-child {
-  transform: translateY(-4px);
 }
 
 
@@ -80,7 +68,7 @@ section.title_area span {
 
 .desc {
   margin: 0 40px;
-  width: calc(100% - 84px);
+  width: calc(100% - 80px);
   height: 300px;
   display: flex;
   gap:  4px;
@@ -100,10 +88,12 @@ section.title_area span {
 }
 
 .desc1_title {
+  width: 100%;
   position: absolute;
   top:  50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
   font-family: "NanumSquareNeo-Eb";
   color:  #ffffff;
   font-size: 2.6rem;
@@ -124,10 +114,12 @@ section.title_area span {
 }
 
 .desc2_title {
+  width: 100%;
   position: absolute;
   top:  50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);  
+  text-align: center;
   font-family: "NanumSquareNeo-Eb";
   color:  #ffffff;
   font-size: 2.6rem;
@@ -140,6 +132,7 @@ section.title_area span {
 .goretex {
   margin-top: 60px;
 }
+
 .goretex_wrapper {
   width: calc(100% - 80px);
   margin: 0 40px;
@@ -151,13 +144,15 @@ section.title_area span {
 /* line 1 */
 
 .line1 {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap:  4px;
+  gap: 4px;
 }
 
 .line1 > div {
-  width: 33%;
+  width: 33.1%;
   display: flex;
   flex-direction: column;
 }
@@ -201,4 +196,10 @@ section.title_area span {
 }
 
 
+
+/* goretex_category_ski */
+
+.goretex_ski {
+  
+}
 

@@ -146,13 +146,12 @@ section.title_area span {
 .line1 {
   width: 100%;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   gap: 4px;
 }
 
 .line1 > div {
-  width: 33.1%;
+  width: 33%;
   display: flex;
   flex-direction: column;
 }
@@ -200,6 +199,179 @@ section.title_area span {
 /* goretex_category_ski */
 
 .goretex_ski {
-  
+  margin-top: 40px;
+  position: relative;
 }
 
+.goretex_ski > a img {
+  width:  100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.goretex_ski > a picture::after{
+  content:  "";
+  display: block;
+  position: absolute;
+  bottom:  0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(to bottom, transparent, #121212);
+}
+
+.goretex_ski_img_conts {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 80px);
+  padding: 0 40px;
+  color:  #ffffff;
+  z-index: 0;
+  transition: color 0.5s;
+}
+
+.goretex_ski_img_conts:hover{
+  color:  #121212;
+}
+
+.goretex_ski_img_conts::before{
+  content:  "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 0%;
+  background-color: #ffffff;
+  z-index: -1;
+  transition: height 0.4s;
+}
+
+.goretex_ski_img_conts.on::before{
+  height: 100%;
+  border-bottom: 1px solid #dedede;
+}
+
+.goretex_ski_img_title {
+  margin-top: 24px;
+  font-family: "NanumSquareNeo-Eb";
+  font-size: 2.4rem;
+  letter-spacing: 0.04rem;
+}
+
+.goretex_ski_img_desc1 {
+  width: calc(50% - 40px);
+  margin-top: 18px;
+  font-family: "NanumSquare-R";
+  font-size: 1.3rem;
+  letter-spacing: 0.06rem;
+  line-height: 2.2rem;
+  word-break: keep-all;
+}
+
+.goretex_ski_img_desc2 {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  margin-left: 4px;
+  font-family: "NanumSquareNeo-Eb";
+  font-size: 1.2rem;
+  font-weight:  800;
+  transition: padding-left 0.4s;
+}
+
+.icon-caret-right-fill {
+  opacity: 0;
+  transition: opacity 0.1s ease-out, transform 0.1s ease-out;
+  transform: translateX(-200%);
+  position: absolute;
+}
+
+.icon-caret-right-fill:hover{
+  opacity: 100;
+  transform: translate(0);
+}
+
+
+
+/* goretex_category_climbing */
+
+.goretex_climbing {
+  margin-top: 40px;
+  position: relative;
+}
+
+.goretex_climbing > a img {
+  width:  100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.goretex_climbing > a picture::after{
+  content:  "";
+  display: block;
+  position: absolute;
+  bottom:  0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(to bottom, transparent, #121212);
+}
+
+.goretex_climbing_img_conts {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 80px);
+  padding: 0 40px;
+  color:  #ffffff;
+  z-index: 0;
+  transition: color 0.5s;
+}
+
+.goretex_climbing_img_conts:hover{
+  color:  #121212;
+}
+
+.goretex_climbing_img_conts::before{
+  content:  "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 0%;
+  background-color: #ffffff;
+  z-index: -1;
+  transition: height 0.4s;
+}
+
+.goretex_climbing_img_conts.on::before{
+  height: 100%;
+  border-bottom: 1px solid #dedede;
+}
+
+.goretex_climbing_img_title {
+  margin-top: 24px;
+  font-family: "NanumSquareNeo-Eb";
+  font-size: 2.4rem;
+  letter-spacing: 0.04rem;
+}
+
+.goretex_climbing_img_desc1 {
+  width: calc(50% - 40px);
+  margin-top: 18px;
+  font-family: "NanumSquare-R";
+  font-size: 1.3rem;
+  letter-spacing: 0.06rem;
+  line-height: 2.2rem;
+  word-break: keep-all;
+}
+
+.goretex_climbing_img_desc2 {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  margin-left: 4px;
+  font-family: "NanumSquareNeo-Eb";
+  font-size: 1.2rem;
+  font-weight:  800;
+  transition: padding-left 0.4s;
+}

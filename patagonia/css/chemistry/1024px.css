@@ -80,4 +80,43 @@
   margin-bottom: 24px;
 }
 
+
+
+/* goretex_climbing */
+
+.goretex_climbing_main_img {
+  height: 100%;
+}
+
+.goretex_climbing_img_title {
+  margin-top: 14px;
+  width: 100%;
+  word-break: keep-all;
+  line-height: 3rem;
+}
+
+.goretex_climbing_img_conts {
+  width: calc(100% - 80px);
+  padding:  0 40px;
+}
+
+.goretex_climbing_img_conts::before {
+  width: 100%;
+}
+
+.goretex_climbing_img_desc2 {
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
 }

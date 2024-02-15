@@ -5,32 +5,33 @@ html {
 }
 
 
-/* activism */
+/* section : activism */
+
 .activism {
   margin-top: 100px;
   padding:  0 40px;
   display: flex;
-  gap: 100px;
+  flex-direction: column-reverse;
+  gap: 20px;
 }
 
 .activism_title {
-  width: 50%;
-  border: 1px solid red;
+  width: 100%;
 }
 
-.activism h2 {
+.activism_title h2 {
   display: block;
-  width: 100%;
+  width: 50%;
   font-family: "NanumSquareNeo-Eb";  
   font-size: 2.4rem;
   word-break: keep-all;
   line-height: 3.6rem;
 }
 
-.activism span {
+.activism_title span {
   margin-top: 40px;
   display: block;
-  width: 60%;
+  width: 50%;
   font-family: "NanumSquare-R";
   font-size: 1.4rem;
   line-height: 2.4rem;
@@ -38,9 +39,71 @@ html {
 }
 
 .activism_main_img {
+  width: 100%;
+  height: auto;
+}
+
+.activism_main_img  img {
+  width: 100%;
+}
+
+
+
+/* section : effort */
+
+.effort {
+  margin-top: 100px;
+  padding:  0 40px;
+  /* border: 1px solid red; */
+}
+
+.effort article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.effort_title {
+  padding:  20px 0;
+  width: 30%;
+  font-family: "NanumSquareNeo-Eb";  
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  word-break: keep-all;
+}
+
+.effort_desc {
   width: 50%;
 }
 
-.activism_main_img img {
-  width: 100%;
+.effort_desc li {
+  border-bottom: 1px solid #dedede;
+}
+
+.desc {
+  display: flex;
+  justify-content: center;
+}
+
+.desc_number {
+  padding:  20px 0;
+  width: 20%;
+  font-family: "NanumSquareNeo-R";  
+  font-size: 2rem;
+}
+
+.desc > span:nth-child(2) {
+  width: 80%;
+}
+
+.desc_title {
+  padding:  20px 0;
+  font-family: "NanumSquareNeo-R";  
+  font-size: 2rem;
+}
+
+.desc_info {
+  width: 90%;
+  padding:  20px 0 40px;
+  line-height: 1.6rem;
+  /* /* display: none; */
 }

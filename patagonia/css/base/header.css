@@ -67,6 +67,7 @@
   width:  140px;
   height: 27px;
   background-image: url(../../assets/imgs/main/patagonialogo.svg);
+  text-indent: -9999em;
 }
 
 .header_right {

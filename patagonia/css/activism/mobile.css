@@ -9,6 +9,11 @@
 
   /* section : activism */
 
+  .activism {
+    margin-top: 100px;
+    padding:  0 30px;
+  }
+
   .activism_title span {
     width: 100%;
   }
@@ -45,6 +50,10 @@
     position: relative;
   }
 
+  .effort_img_conts {
+    width: calc(100% - 60px);
+    padding: 30px;
+  }
 
 
 

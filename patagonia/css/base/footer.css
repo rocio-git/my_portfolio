@@ -47,6 +47,11 @@
   color:  #ccc;
 }
 
+.footer_menu2 li a:hover {
+  font-weight: 600;
+  color:  #ffffff;
+}
+
 .footer span {
   color:  #ffffff;
 }

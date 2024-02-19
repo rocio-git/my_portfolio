@@ -1,0 +1,53 @@
+@media all and (max-width: 767px) {
+
+  html {
+    font-size: 9px;
+    min-width: 320px;
+  }
+
+
+
+  /* section : activism */
+
+  .activism_title span {
+    width: 100%;
+  }
+
+
+  /* section : effort */
+
+  .effort {
+    margin-top: 80px;
+    padding:  0 30px;
+    height: 400px;
+  }
+
+  .effort article {
+    flex-direction: column;
+  }
+
+  .effort_title {
+    width: 100%;
+    line-height: 3.6rem;
+  }
+
+  .effort_desc {
+    margin-top: 20px;
+    width: calc(100% - 30px);
+  }
+
+
+
+  /* section : effort 1 */
+
+  section.effort1{
+    margin-top: 150px;
+    position: relative;
+  }
+
+
+
+
+
+
+}

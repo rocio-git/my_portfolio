@@ -15,7 +15,7 @@ $(function(){
 
   function showNextIndex(){
     let nextIndex = (firstIdx + 1) % idxCount;
-    showIdx.eq(firstIdx).hide(300);
+    showIdx.eq(firstIdx).hide(200);
     showIdx.eq(nextIndex).show(300);
     progress.eq(firstIdx).hide();
     progress.eq(nextIndex).show();

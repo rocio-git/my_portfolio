@@ -1,0 +1,69 @@
+@media all and (max-width: 1024px) {
+
+  html {
+    font-size: 10px;
+  }
+
+
+
+  /* section : activism */
+
+  .activism_title span {
+    margin-top: 20px;
+    display: block;
+    width: 90%;
+    font-family: "NanumSquare-R";
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    word-break: keep-all;
+  }
+
+
+
+  /* section : effort */
+
+  .effort {
+    margin-top: 80px;
+  }
+
+  .effort_img_conts {
+    padding: 20px 40px;
+  }
+
+
+
+/* section : effort 1 */
+
+  .effort_img_conts::before{
+    width: 100%;
+  }
+
+  .effort_img_title {
+    margin-top: 14px;
+  }
+
+  .effort_img_desc1 {
+    width: 100%;
+  }
+
+
+
+  /* section : effort 2 */
+
+  section.effort2{
+    margin-top: 40px;
+  }
+
+
+
+  /* section : effort 3 */
+
+    section.effort3{
+      margin-top: 40px;
+    }
+
+
+
+
+
+}

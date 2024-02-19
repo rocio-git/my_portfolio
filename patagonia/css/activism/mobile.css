@@ -47,8 +47,7 @@
 
   section.effort1{
     margin-top: 150px;
-    position: relative;
-    height: 700px;
+    min-height: 700px;
   }
 
   .effort_img_conts {
@@ -60,17 +59,13 @@
   /* section : effort2 */
 
   section.effort2{
-    margin-top: 80px;
-    position: relative;
-    height: 700px;
+    min-height: 700px;
   }
 
   /* section : effort3 */
 
   section.effort3{
-    margin-top: 80px;
-    position: relative;
-    height: 700px;
+    min-height: 700px;
   }
 
 }

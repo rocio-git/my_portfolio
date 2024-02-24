@@ -24,8 +24,36 @@ $(function(){
 
 
 
+  //section : effort1 스크립트
+  
+  $(".effort1").mouseover(function(){
+    $(this).find(".effort_img_conts").toggleClass('on');
+  });
+  $(".effort1").mouseout(function(){
+    $(this).find(".effort_img_conts").removeClass('on');
+  });
 
 
+  
+  //section : effort2 스크립트
+  
+  $(".effort2").mouseover(function(){
+    $(this).find(".effort_img_conts").toggleClass('on');
+  });
+  $(".effort2").mouseout(function(){
+    $(this).find(".effort_img_conts").removeClass('on');
+  });
+
+
+
+    //section : effort3 스크립트
+  
+  $(".effort3").mouseover(function(){
+    $(this).find(".effort_img_conts").toggleClass('on');
+  });
+  $(".effort3").mouseout(function(){
+    $(this).find(".effort_img_conts").removeClass('on');
+  });
 
 
 

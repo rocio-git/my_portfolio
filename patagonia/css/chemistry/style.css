@@ -230,7 +230,7 @@ section.title_area span {
   transition: color 0.5s;
 }
 
-.goretex_ski_img_conts:hover{
+.goretex_ski:hover .goretex_ski_img_conts{
   color:  #121212;
 }
 
@@ -327,7 +327,7 @@ section.title_area span {
   transition: color 0.5s;
 }
 
-.goretex_climbing_img_conts:hover{
+.goretex_climbing:hover .goretex_climbing_img_conts{
   color:  #121212;
 }
 

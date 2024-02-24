@@ -32,13 +32,13 @@ $(function(){
 
   //section : membership 스크립트
   
-  $(".membership_img_conts").mouseover(function(){
-    $(this).toggleClass('on');
+  $(".membership").mouseover(function(){
+    $(this).find(".membership_img_conts").toggleClass('on');
     $(this).find(".membership_img_desc2").css("padding-left","20px");
     $(this).find(".icon-caret-right-fill").css("opacity","100");
   });
-  $(".membership_img_conts").mouseout(function(){
-    $(this).removeClass('on');
+  $(".membership").mouseout(function(){
+    $(this).find(".membership_img_conts").removeClass('on');
     $(this).find(".membership_img_desc2").css("padding-left","0");
     $(this).find(".icon-caret-right-fill").css("opacity","0");
   });

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>이슬기&#39;s Portfolio</title>
+  <title>이슬기 | 웹 포트폴리오</title>
   <meta 
     name="description" 
     content="Portfolio for improve" />
@@ -24,14 +24,17 @@
   <link rel="stylesheet" href="./css/style.css">
   <!-- Javascript -->
   <script src="src/main.js" defer></script>
+  <!-- AOS 라이브러리 불러오기 -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
-<body>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
   <!-- Header -->
   <header class="header">
     <div class="header__logo">
       <img class="header__logo__img" src="./images/profile.png" alt="logo">
-      <h1 class="header__logo__title"><a href="#">이슬기</a></h1>
+      <h1 class="header__logo__title"><a href="#">Seulki&#39;s web portfolio</a></h1>
     </div>
     <nav>
       <ul class="header__menu">
@@ -39,7 +42,7 @@
         <li><a class="header__menu__item" href="#about">About</a></li>
         <li><a class="header__menu__item" href="#skills">Skills</a></li>
         <li><a class="header__menu__item" href="#works">My work</a></li>
-        <li><a class="header__menu__item" href="#contect">Contact</a></li>
+        <li><a class="header__menu__item" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -47,16 +50,19 @@
   <!-- Main -->
   <main>
     <!-- Home -->
-    <section class="#home">
-      <img src="./images/profile.png" alt="백그라운드 제거된 프로필">
-      <h2>Web Publisher</h2>
-      <p>이슬기</p>
-      <a href="#contect">Contect Me</a>
+    <section id="home">
+      <img class="home__img" src="./images/profile.png" alt="백그라운드 제거된 프로필">
+      <h2 class="home__title">
+        Hello<br/>
+        I&#39;m <strong class="home__title--strong">web-publisher</strong>, Seulki
+      </h2>
+      <p class="home__desc">A web publisher currently in Seoul, Korea</p>
+      <a class="home__contact" href="#contact">Contact Me</a>
     </section>
     <!-- About -->
-    <section class="about">
-      <h2>about me</h2>
-      <p>
+    <section id="about" class="section">
+      <h2 class="title">about me</h2>
+      <p calss="desc">
         프로젝트 화면을 구현할 수 있다는 점에서 매력을 느껴 퍼블리셔의 길을 선택하게 되었습니다.
         누구나 쉽게 접할 수 있도록 웹 표준과 웹 접근성을 고려한 마크업을 하기 위해 노력합니다.
         원활한 의사소통을 위해 자기 개발을 꾸준히 하고 있습니다.
@@ -95,8 +101,8 @@
     </section>
 
     <!-- Skills -->
-    <section class="skills">
-     <h2>Skills</h2>
+    <section id="skills" class="section">
+     <h2 class="title">Skills</h2>
      <ul>
       <li>
         <div><span>HTML</span><span>90%</span></div>
@@ -122,9 +128,9 @@
     </section>
 
     <!-- Work -->
-    <section class="work">
-      <h2>My work</h2>
-      <p>Projects</p>
+    <section id="work" class="section">
+      <h2 class="title">My work</h2>
+      <p class="decs">Projects</p>
       <ul>
         <li><button>Redesign</button></li>
         <li><button>Clone Coding</button></li>
@@ -142,9 +148,9 @@
     </aside>
   </main>
   <!-- Footer -->
-  <footer id="contact">
-    <h2>Let&#39;s talk</h2>
-    <p>slki0329@naver.com</p>
+  <footer id="contact" class="section">
+    <h2 class="title">Let&#39;s talk</h2>
+    <p class="desc">slki0329@naver.com</p>
     <ul>
       <li>
         <a href="https://github.com/rocio-git" target="_blank" title="my github link">
@@ -154,5 +160,7 @@
     </ul>
     <p>&copy;Seulki Lee - All rights reserved</p>
   </footer>
+
+  <script>AOS.init({disable: 'mobile'});</script>
 </body>
 </html>

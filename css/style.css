@@ -3,17 +3,16 @@
   /* App Colors */
   --color-primary: var(--color-black);
   --color-primary-variant: var(--color-gray);
-  --color-accent: var(--color-blue);
-  --color-accent-variant: var(--color-orange);
+  --color-accent: var(--color-purple);
+  --color-accent-variant: var(--color-purple);
   --color-text: var(--color-black);
   /* --color-secondary도 추가 가능 */
 
   /* Colors */
   --color-white: #ffffff;
   --color-black: #161619;
-  --color-blue: #03e8f9;
-  --color-orange: #fd6413;
-  --color-gray: #525359;
+  --color-gray: #2d2d2f;
+  --color-purple: #8D43CA;
 
   /* Size */
   --size-max-width: 1200px;
@@ -206,15 +205,22 @@ button {
 
 
 /* About */
+.about__desc {
+  word-break: break-all;
+  text-align: center;
+  line-height: 2rem;
+  padding:  2rem 0;
+}
+
 .majors {
   display: flex;
   justify-content: space-between;
   gap:  1rem;
-  margin: 2.5rem 0;
+  margin: 4rem 0;
 }
 
 .major {
-  width: 33%;
+  width: 30%;
   background-color: var(--color-black);
   padding:  2rem 1rem;
   color:  var(--color-white);
@@ -232,7 +238,7 @@ button {
 .major__title {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
 }
 
 .major:hover .major__icon {
@@ -257,4 +263,42 @@ button {
 .job__period {
   color:  var(--color-primary);
   font-size: 0.9rem;
+}
+
+
+/* Skills */
+#skills {
+  background-color: var(--color-primary-variant);
+  color:  var(--color-white);
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  margin: 2rem 3rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
+}
+
+.skills__title {
+  color:var(--color-purple);
+  margin:  1rem 0 ;
+  font-size: 1.2rem;
+}
+
+.skills__coding {
+  grid-row: span 2;
+  padding:  1rem;
+  background-color: var(--color-primary);
+}
+
+.skills__tools {
+  padding:  1rem;
+}
+
+.skills__etc {
+  padding:  1rem;
+  background-color: var(--color-primary);
+  filter: brightness(150%);
 }

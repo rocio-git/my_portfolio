@@ -4,7 +4,7 @@
   --color-primary: var(--color-black);
   --color-primary-variant: var(--color-gray);
   --color-accent: var(--color-purple);
-  --color-accent-variant: var(--color-purple);
+  --color-accent-variant: var(--color-pink);
   --color-text: var(--color-black);
   /* --color-secondary도 추가 가능 */
 
@@ -13,6 +13,7 @@
   --color-black: #161619;
   --color-gray: #2d2d2f;
   --color-purple: #8D43CA;
+  --color-pink: #ea6990;
 
   /* Size */
   --size-max-width: 1200px;
@@ -324,4 +325,56 @@ button {
 .bar__value {
   height: 3px;
   background: var(--color-accent);
+}
+
+
+
+/* Works */
+#work {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin: 2.5rem;
+  gap: 1rem;
+}
+
+.category {
+  position: relative;
+  color:  var(--color-white);
+  font-size: 1.1rem;
+  padding:  0.5rem 2.5rem;
+  border-radius: 4px;
+  border: 1px solid var(--color-accent);
+  cursor:  pointer;
+  white-space:  nowrap;
+}
+
+.category--selected {
+  background-color: var(--color-accent);
+  color: var(--color-primary);
+}
+
+.category__count {
+  opacity: 0;
+  position: absolute;
+  top:  -20px;
+  right: 10px;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  border-radius: 100%;
+  background-color: var(--color-accent-variant);
+  color:  var(--color-white);
+  font-weight: 600;
+  transition: all 200ms ease-in;
+}
+
+.category--selected .category__count,
+.category:hover .category__count  {
+  opacity: 1;
+  top:  0;
 }

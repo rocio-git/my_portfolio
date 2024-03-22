@@ -27,6 +27,7 @@
 body {
   font-family: 'Noto Sans', sans-serif;
   margin: 0;
+  min-width: 360px;
 }
 
 /* 스크롤 바 */
@@ -95,9 +96,9 @@ button {
   border: 1px solid rgba( 255, 255, 255, 0.5 );
   border-radius: 20px;
   position: fixed;
-  top: 2px;
+  top: 1px;
   width: calc(100% - 4px);
-  margin: 0 2px;
+  margin: 0 1px;
   padding:  1rem;
   display: flex;
   justify-content: space-between;
@@ -121,12 +122,22 @@ button {
   color: var(--color-black);
 }
 
+.header__toggle {
+  display: none;
+  color:  var(--color-black);
+  font-size: 1.5rem;
+  position: absolute;
+  top:  1.2rem;
+  right:  1rem;
+}
+
 .header__menu {
   display: flex;
   gap: 4px;
 }
 
 .header__menu__item {
+  display: block;
   padding:  8px 16px;
   border-radius: 30px;
   border: 1px solid transparent;  
@@ -221,7 +232,7 @@ button {
 }
 
 .major {
-  width: 30%;
+  width: 100%;
   background-color: var(--color-black);
   padding:  2rem 1rem;
   color:  var(--color-white);
@@ -261,6 +272,7 @@ button {
   color:  var(--color-primary);
   font-size: 0.9rem;
 }
+
 
 
 /* Skills */
@@ -478,7 +490,7 @@ button {
 @media screen and (max-width: 767px) {
   /* 공통 CSS */
   .section {
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
   }
 
   .title {
@@ -494,11 +506,23 @@ button {
     align-items: start;
   }
 
+  .header__toggle {
+    display: block;
+  }
+
   .header__menu {
+    display: none;
     flex-direction: column;
     text-align: center;
-    padding: 1rem 4rem;
-    gap:  1rem;
+    margin: 1rem 4rem;
+  }
+
+  .header__menu.open {
+    display: flex;
+  }
+
+  .header__menu li {
+    margin: 2px 0;
   }
 
   .header__nav {

@@ -144,6 +144,11 @@ button {
   transition: all 300ms;
 }
 
+.header__menu__item.changeColor {
+  color:  var(--color-white);
+}
+
+
 .header__menu__item:hover{
   border: 1px solid rgba(197, 190, 212, 0.4);
   background-color: var(--color-white);
@@ -372,10 +377,11 @@ button {
 }
 
 .category__count {
+  display: block;
   opacity: 0;
   position: absolute;
-  top:  -20px;
-  right: 10px;
+  top:  10px;
+  right: 8px;
   width: 28px;
   height: 28px;
   line-height: 28px;
@@ -383,7 +389,8 @@ button {
   background-color: var(--color-accent-variant);
   color:  var(--color-white);
   font-weight: 600;
-  transition: all 200ms ease-in;
+  transition: all 200ms ease-in-out;
+  transform: translateY(15%);
 }
 
 .category--selected .category__count,
@@ -397,7 +404,14 @@ button {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap:  1rem;
+  transition: all 250ms ease-out;
 }
+
+.projects.anim-out {
+  opacity:  0;
+  transform: scale(0.96) translateY(20px);
+}
+
 
 .project {
   position: relative;
@@ -446,8 +460,8 @@ button {
 
 /* Arrow Up */
 .arrow-up {
-  background-color: var(--color-primary);
-  color:  var(--color-white);
+  background-color: var(--color-white);
+  color:  var(--color-primary);
   position: fixed;
   bottom: 3rem;
   right:  3rem;

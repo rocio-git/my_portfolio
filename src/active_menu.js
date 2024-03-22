@@ -20,9 +20,13 @@ const navItems = sectionIds.map(id =>
   document.querySelector(`[href="${id}"]`)
 );
 const visibleSections = sectionIds.map(() => false);
+let activeNavItem = navItems[0];
 
+const options = {
+  rootMargin: '-20% 0px 0px 0px',
+  threshold: [0, 0.98],
+};
 
-const options = {};
 const observer = new IntersectionObserver(observerCallback, options); //변수 observer new IntersectionObserver 설정하기
 sections.forEach((section) => observer.observe(section));
 
@@ -34,18 +38,26 @@ function observerCallback(entries) {
     selectLastOne = 
     index === sectionIds.length -1 && //마지막 엔트리 찾고,
     entry.isIntersecting && //그 마지막 엔트리가 보여지고 있어야하고,
-    entry.intersectionRatio >= 0.9; //그냥 보여지는게 아니라 99퍼센트가 다 보여지면 selectLastOne이 true로 설정될 것임.
+    entry.intersectionRatio >= 0.95; //그냥 보여지는게 아니라 99퍼센트가 다 보여지면 selectLastOne이 true로 설정될 것임.
   });
-  console.log(selectLastOne);
+
 
   const navIndex = selectLastOne 
   ? sectionIds.length - 1 
   : findFirstIntersecting(visibleSections);
-  console.log(navIndex);
+  selectNavItem(navIndex);
 }
 
 function findFirstIntersecting(intersections) {
   const index = intersections.indexOf(true);
   return index >= 0 ? index : 0  // indexOf(true)에 찾고자 하는 요소가 없다면 -1이되므로 안전하게 -1이 되면 0이 되도록 설정해줌.
+}
+
+function selectNavItem(index) {
+  const navItem = navItems[index];
+  if(!navItem) return;
+  activeNavItem.classList.remove('active');
+  activeNavItem = navItem;
+  activeNavItem.classList.add('active');
 }
 

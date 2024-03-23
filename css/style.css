@@ -186,6 +186,29 @@ button {
   padding:  5rem 1rem;
   padding-top:  10rem;
   text-align: center;
+  position: relative;
+}
+
+.home__divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.home__divider svg {
+  position: relative;
+  display: block;
+  width: calc(142% + 1.3px);
+  height: 63px;
+  transform: rotateY(180deg);
+}
+
+.home__divider .shape-fill {
+  fill: #FFFFFF;
 }
 
 .home__img {
@@ -349,6 +372,7 @@ button {
 #works {
   background-color: var(--color-primary);
   color: var(--color-white);
+  position: relative;
 }
 
 #works a {
@@ -459,6 +483,27 @@ button {
   background-color: var(--color-accent);
 }
 
+.works__divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.works__divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 47px;
+}
+
+.works__divider .shape-fill {
+  fill: #D3CCE3;
+}
+
 
 
 /* Arrow Up */
@@ -499,9 +544,6 @@ button {
 .contact__link:hover{
   color:  var(--color-accent);
 }
-
-
-
 
 
 @media screen and (max-width: 767px) {
